@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC0C34A11DF55EE2008B8BD0 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0C34A01DF55EE2008B8BD0 /* CustomTableViewCell.m */; };
+		CC155BF91DF6CB0600762606 /* NewtoniBanadzevViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC155BF81DF6CB0600762606 /* NewtoniBanadzevViewController.m */; };
+		CC155C031DF7FC9100762606 /* UxxankyanBanadzevViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC155C021DF7FC9100762606 /* UxxankyanBanadzevViewController.m */; };
+		CC155C071DF7FCC400762606 /* SexaniBanadzevViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC155C061DF7FCC400762606 /* SexaniBanadzevViewController.m */; };
+		CC155C0B1DF7FCEA00762606 /* SimpsoniBanadzevViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC155C0A1DF7FCEA00762606 /* SimpsoniBanadzevViewController.m */; };
+		CC155C211DF814CA00762606 /* CustomIntegralTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC155C201DF814CA00762606 /* CustomIntegralTableViewCell.m */; };
+		CC155C251DF825FF00762606 /* ErkuPopFuncUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC155C241DF825FF00762606 /* ErkuPopFuncUIViewController.m */; };
+		CC159D011EB8693000B63BD9 /* EyleriDzevapoxvacMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC159D001EB8693000B63BD9 /* EyleriDzevapoxvacMethodViewController.m */; };
+		CC159D051EB869E200B63BD9 /* RungKuttiMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC159D041EB869E200B63BD9 /* RungKuttiMethodViewController.m */; };
+		CC1B891F1E9EB91D00E8F6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1B891E1E9EB91D00E8F6BF /* LaunchScreen.storyboard */; };
+		CC1C92FC1DF1AC8000E78020 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C92FB1DF1AC8000E78020 /* main.m */; };
+		CC1C92FF1DF1AC8000E78020 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C92FE1DF1AC8000E78020 /* AppDelegate.m */; };
+		CC1C93081DF1AC8000E78020 /* DiplomaWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC1C93061DF1AC8000E78020 /* DiplomaWork.xcdatamodeld */; };
+		CC1C93181DF1AC8000E78020 /* DiplomaWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C93171DF1AC8000E78020 /* DiplomaWorkTests.m */; };
+		CC1C93231DF1AC8000E78020 /* DiplomaWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C93221DF1AC8000E78020 /* DiplomaWorkUITests.m */; };
+		CC1C933A1DF2D0FA00E78020 /* FunkcianeriMotarkumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C93391DF2D0FA00E78020 /* FunkcianeriMotarkumViewController.m */; };
+		CC1C93471DF2D1AE00E78020 /* DiferencialHavasarumnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1C93461DF2D1AE00E78020 /* DiferencialHavasarumnerViewController.m */; };
+		CC1DE0B61EC3A47E00E36446 /* CustomTableViewCellErkuPop.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1DE0B51EC3A47E00E36446 /* CustomTableViewCellErkuPop.m */; };
+		CC2ED5031EC06D9D008FD79D /* MenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2ED5021EC06D9D008FD79D /* MenuCell.m */; };
+		CC2ED5081EC06E0C008FD79D /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2ED5071EC06E0C008FD79D /* MainMenuViewController.m */; };
+		CC2ED50C1EC06E26008FD79D /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2ED50A1EC06E26008FD79D /* MenuViewController.m */; };
+		CC2ED50F1EC0A6B8008FD79D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2ED50E1EC0A6B8008FD79D /* Assets.xcassets */; };
+		CC37120D1EA38265000AE4EF /* EylerMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC37120C1EA38265000AE4EF /* EylerMethodViewController.m */; };
+		CC3712181EA39F0E000AE4EF /* CustomDiferencialTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3712171EA39F0E000AE4EF /* CustomDiferencialTableViewCell.m */; };
+		CC3CAFBA1DF30BE500705587 /* IntegralneriHashvumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3CAFB91DF30BE500705587 /* IntegralneriHashvumViewController.m */; };
+		CC3CAFBE1DF31E0100705587 /* Lagranji BanadzevViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3CAFBD1DF31E0100705587 /* Lagranji BanadzevViewController.m */; };
+		CC3EA9451EC84155003D5960 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3EA9441EC84155003D5960 /* ResultViewController.m */; };
+		CC3EA94C1EC84332003D5960 /* ResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3EA94B1EC84332003D5960 /* ResultTableViewCell.m */; };
+		CC80A1A71E389D7D00F19EC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC80A1A61E389D7D00F19EC9 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC1C93141DF1AC8000E78020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1C92EF1DF1AC8000E78020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1C92F61DF1AC8000E78020;
+			remoteInfo = DiplomaWork;
+		};
+		CC1C931F1DF1AC8000E78020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1C92EF1DF1AC8000E78020 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1C92F61DF1AC8000E78020;
+			remoteInfo = DiplomaWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC0C349F1DF55EE2008B8BD0 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		CC0C34A01DF55EE2008B8BD0 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		CC0C34A21DF567D5008B8BD0 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		CC155BF71DF6CB0600762606 /* NewtoniBanadzevViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewtoniBanadzevViewController.h; path = FunkcianeriMotarkumViewController/NewtoniBanadzevViewController/NewtoniBanadzevViewController.h; sourceTree = "<group>"; };
+		CC155BF81DF6CB0600762606 /* NewtoniBanadzevViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewtoniBanadzevViewController.m; path = FunkcianeriMotarkumViewController/NewtoniBanadzevViewController/NewtoniBanadzevViewController.m; sourceTree = "<group>"; };
+		CC155C011DF7FC9100762606 /* UxxankyanBanadzevViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UxxankyanBanadzevViewController.h; path = IntegralneriHashvumViewController/UxxankayanBanadzevViewController/UxxankyanBanadzevViewController.h; sourceTree = "<group>"; };
+		CC155C021DF7FC9100762606 /* UxxankyanBanadzevViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UxxankyanBanadzevViewController.m; path = IntegralneriHashvumViewController/UxxankayanBanadzevViewController/UxxankyanBanadzevViewController.m; sourceTree = "<group>"; };
+		CC155C051DF7FCC400762606 /* SexaniBanadzevViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SexaniBanadzevViewController.h; path = IntegralneriHashvumViewController/SexaniBanadzevViewController/SexaniBanadzevViewController.h; sourceTree = "<group>"; };
+		CC155C061DF7FCC400762606 /* SexaniBanadzevViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SexaniBanadzevViewController.m; path = IntegralneriHashvumViewController/SexaniBanadzevViewController/SexaniBanadzevViewController.m; sourceTree = "<group>"; };
+		CC155C091DF7FCEA00762606 /* SimpsoniBanadzevViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpsoniBanadzevViewController.h; path = IntegralneriHashvumViewController/SimpsoniBanadzevViewController/SimpsoniBanadzevViewController.h; sourceTree = "<group>"; };
+		CC155C0A1DF7FCEA00762606 /* SimpsoniBanadzevViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpsoniBanadzevViewController.m; path = IntegralneriHashvumViewController/SimpsoniBanadzevViewController/SimpsoniBanadzevViewController.m; sourceTree = "<group>"; };
+		CC155C1B1DF8132100762606 /* HeaderIntegral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HeaderIntegral.h; path = IntegralneriHashvumViewController/HeaderIntegral.h; sourceTree = "<group>"; };
+		CC155C1F1DF814CA00762606 /* CustomIntegralTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomIntegralTableViewCell.h; path = IntegralneriHashvumViewController/CustomIntegralTableViewCell/CustomIntegralTableViewCell.h; sourceTree = "<group>"; };
+		CC155C201DF814CA00762606 /* CustomIntegralTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomIntegralTableViewCell.m; path = IntegralneriHashvumViewController/CustomIntegralTableViewCell/CustomIntegralTableViewCell.m; sourceTree = "<group>"; };
+		CC155C231DF825FF00762606 /* ErkuPopFuncUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErkuPopFuncUIViewController.h; path = FunkcianeriMotarkumViewController/ErkuPopFuncUIViewController/ErkuPopFuncUIViewController.h; sourceTree = "<group>"; };
+		CC155C241DF825FF00762606 /* ErkuPopFuncUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ErkuPopFuncUIViewController.m; path = FunkcianeriMotarkumViewController/ErkuPopFuncUIViewController/ErkuPopFuncUIViewController.m; sourceTree = "<group>"; };
+		CC159CFF1EB8693000B63BD9 /* EyleriDzevapoxvacMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EyleriDzevapoxvacMethodViewController.h; path = DiferencialHavasarumnerViewController/EyleriDzevapoxvacMethodViewController/EyleriDzevapoxvacMethodViewController.h; sourceTree = "<group>"; };
+		CC159D001EB8693000B63BD9 /* EyleriDzevapoxvacMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EyleriDzevapoxvacMethodViewController.m; path = DiferencialHavasarumnerViewController/EyleriDzevapoxvacMethodViewController/EyleriDzevapoxvacMethodViewController.m; sourceTree = "<group>"; };
+		CC159D031EB869E200B63BD9 /* RungKuttiMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RungKuttiMethodViewController.h; path = DiferencialHavasarumnerViewController/RungKuttiMethodViewController/RungKuttiMethodViewController.h; sourceTree = "<group>"; };
+		CC159D041EB869E200B63BD9 /* RungKuttiMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RungKuttiMethodViewController.m; path = DiferencialHavasarumnerViewController/RungKuttiMethodViewController/RungKuttiMethodViewController.m; sourceTree = "<group>"; };
+		CC1B891E1E9EB91D00E8F6BF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC1C92F71DF1AC8000E78020 /* DiplomaWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiplomaWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1C92FB1DF1AC8000E78020 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC1C92FD1DF1AC8000E78020 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC1C92FE1DF1AC8000E78020 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC1C93071DF1AC8000E78020 /* DiplomaWork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiplomaWork.xcdatamodel; sourceTree = "<group>"; };
+		CC1C930E1DF1AC8000E78020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1C93131DF1AC8000E78020 /* DiplomaWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiplomaWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1C93171DF1AC8000E78020 /* DiplomaWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiplomaWorkTests.m; sourceTree = "<group>"; };
+		CC1C93191DF1AC8000E78020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1C931E1DF1AC8000E78020 /* DiplomaWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiplomaWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1C93221DF1AC8000E78020 /* DiplomaWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiplomaWorkUITests.m; sourceTree = "<group>"; };
+		CC1C93241DF1AC8000E78020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1C93381DF2D0FA00E78020 /* FunkcianeriMotarkumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FunkcianeriMotarkumViewController.h; path = FunkcianeriMotarkumViewController/FunkcianeriMotarkumViewController.h; sourceTree = "<group>"; };
+		CC1C93391DF2D0FA00E78020 /* FunkcianeriMotarkumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FunkcianeriMotarkumViewController.m; path = FunkcianeriMotarkumViewController/FunkcianeriMotarkumViewController.m; sourceTree = "<group>"; };
+		CC1C93451DF2D1AE00E78020 /* DiferencialHavasarumnerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiferencialHavasarumnerViewController.h; path = DiferencialHavasarumnerViewController/DiferencialHavasarumnerViewController.h; sourceTree = "<group>"; };
+		CC1C93461DF2D1AE00E78020 /* DiferencialHavasarumnerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiferencialHavasarumnerViewController.m; path = DiferencialHavasarumnerViewController/DiferencialHavasarumnerViewController.m; sourceTree = "<group>"; };
+		CC1DE0B41EC3A47E00E36446 /* CustomTableViewCellErkuPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableViewCellErkuPop.h; path = FunkcianeriMotarkumViewController/ErkuPopFuncUIViewController/CustomTableViewCellErkuPop/CustomTableViewCellErkuPop.h; sourceTree = "<group>"; };
+		CC1DE0B51EC3A47E00E36446 /* CustomTableViewCellErkuPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableViewCellErkuPop.m; path = FunkcianeriMotarkumViewController/ErkuPopFuncUIViewController/CustomTableViewCellErkuPop/CustomTableViewCellErkuPop.m; sourceTree = "<group>"; };
+		CC2ED5011EC06D9D008FD79D /* MenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuCell.h; path = MenuCell/MenuCell.h; sourceTree = "<group>"; };
+		CC2ED5021EC06D9D008FD79D /* MenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuCell.m; path = MenuCell/MenuCell.m; sourceTree = "<group>"; };
+		CC2ED5061EC06E0C008FD79D /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainMenuViewController.h; path = MainMenuViewController/MainMenuViewController.h; sourceTree = "<group>"; };
+		CC2ED5071EC06E0C008FD79D /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainMenuViewController.m; path = MainMenuViewController/MainMenuViewController.m; sourceTree = "<group>"; };
+		CC2ED5091EC06E26008FD79D /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = MenuViewController/MenuViewController.h; sourceTree = "<group>"; };
+		CC2ED50A1EC06E26008FD79D /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = MenuViewController/MenuViewController.m; sourceTree = "<group>"; };
+		CC2ED50B1EC06E26008FD79D /* ProtocolMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtocolMenu.h; path = MenuViewController/ProtocolMenu.h; sourceTree = "<group>"; };
+		CC2ED50E1EC0A6B8008FD79D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC37120B1EA38265000AE4EF /* EylerMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EylerMethodViewController.h; path = DiferencialHavasarumnerViewController/EylerMethodViewController/EylerMethodViewController.h; sourceTree = "<group>"; };
+		CC37120C1EA38265000AE4EF /* EylerMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EylerMethodViewController.m; path = DiferencialHavasarumnerViewController/EylerMethodViewController/EylerMethodViewController.m; sourceTree = "<group>"; };
+		CC37120F1EA39CB3000AE4EF /* HeaderDiferencial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HeaderDiferencial.h; path = DiferencialHavasarumnerViewController/HeaderDiferencial.h; sourceTree = "<group>"; };
+		CC3712161EA39F0E000AE4EF /* CustomDiferencialTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomDiferencialTableViewCell.h; path = DiferencialHavasarumnerViewController/CustomDiferencialalTableViewCell/CustomDiferencialTableViewCell.h; sourceTree = "<group>"; };
+		CC3712171EA39F0E000AE4EF /* CustomDiferencialTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomDiferencialTableViewCell.m; path = DiferencialHavasarumnerViewController/CustomDiferencialalTableViewCell/CustomDiferencialTableViewCell.m; sourceTree = "<group>"; };
+		CC3CAFB81DF30BE500705587 /* IntegralneriHashvumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntegralneriHashvumViewController.h; path = IntegralneriHashvumViewController/IntegralneriHashvumViewController.h; sourceTree = "<group>"; };
+		CC3CAFB91DF30BE500705587 /* IntegralneriHashvumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntegralneriHashvumViewController.m; path = IntegralneriHashvumViewController/IntegralneriHashvumViewController.m; sourceTree = "<group>"; };
+		CC3CAFBC1DF31E0100705587 /* Lagranji BanadzevViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Lagranji BanadzevViewController.h"; path = "FunkcianeriMotarkumViewController/Lagranji BanadzevViewController/Lagranji BanadzevViewController.h"; sourceTree = "<group>"; };
+		CC3CAFBD1DF31E0100705587 /* Lagranji BanadzevViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Lagranji BanadzevViewController.m"; path = "FunkcianeriMotarkumViewController/Lagranji BanadzevViewController/Lagranji BanadzevViewController.m"; sourceTree = "<group>"; };
+		CC3EA9431EC84155003D5960 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultViewController.h; path = DiferencialHavasarumnerViewController/EyleriDzevapoxvacMethodViewController/EylerMethodResultViewController/ResultViewController.h; sourceTree = "<group>"; };
+		CC3EA9441EC84155003D5960 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultViewController.m; path = DiferencialHavasarumnerViewController/EyleriDzevapoxvacMethodViewController/EylerMethodResultViewController/ResultViewController.m; sourceTree = "<group>"; };
+		CC3EA94A1EC84332003D5960 /* ResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResultTableViewCell.h; path = DiferencialHavasarumnerViewController/ResultTableViewCell/ResultTableViewCell.h; sourceTree = "<group>"; };
+		CC3EA94B1EC84332003D5960 /* ResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultTableViewCell.m; path = DiferencialHavasarumnerViewController/ResultTableViewCell/ResultTableViewCell.m; sourceTree = "<group>"; };
+		CC3EA94E1EC8AC51003D5960 /* HeaderForResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HeaderForResult.h; path = DiferencialHavasarumnerViewController/HeaderForResult.h; sourceTree = "<group>"; };
+		CC80A1A61E389D7D00F19EC9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC1C92F41DF1AC8000E78020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1C93101DF1AC8000E78020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1C931B1DF1AC8000E78020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC155BFA1DF6CB0900762606 /* NewtoniBanadzevViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC155BF71DF6CB0600762606 /* NewtoniBanadzevViewController.h */,
+				CC155BF81DF6CB0600762606 /* NewtoniBanadzevViewController.m */,
+			);
+			name = NewtoniBanadzevViewController;
+			sourceTree = "<group>";
+		};
+		CC155BFF1DF6CB5300762606 /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC0C349F1DF55EE2008B8BD0 /* CustomTableViewCell.h */,
+				CC0C34A01DF55EE2008B8BD0 /* CustomTableViewCell.m */,
+			);
+			name = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		CC155C041DF7FCA300762606 /* UxxankayanBanadzevViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC155C011DF7FC9100762606 /* UxxankyanBanadzevViewController.h */,
+				CC155C021DF7FC9100762606 /* UxxankyanBanadzevViewController.m */,
+			);
+			name = UxxankayanBanadzevViewController;
+			sourceTree = "<group>";
+		};
+		CC155C081DF7FCC900762606 /* SexaniBanadzevViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC155C051DF7FCC400762606 /* SexaniBanadzevViewController.h */,
+				CC155C061DF7FCC400762606 /* SexaniBanadzevViewController.m */,
+			);
+			name = SexaniBanadzevViewController;
+			sourceTree = "<group>";
+		};
+		CC155C0C1DF7FCEE00762606 /* SimpsoniBanadzevViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC155C091DF7FCEA00762606 /* SimpsoniBanadzevViewController.h */,
+				CC155C0A1DF7FCEA00762606 /* SimpsoniBanadzevViewController.m */,
+			);
+			name = SimpsoniBanadzevViewController;
+			sourceTree = "<group>";
+		};
+		CC155C221DF814D300762606 /* CustomIntegralTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC155C1F1DF814CA00762606 /* CustomIntegralTableViewCell.h */,
+				CC155C201DF814CA00762606 /* CustomIntegralTableViewCell.m */,
+			);
+			name = CustomIntegralTableViewCell;
+			sourceTree = "<group>";
+		};
+		CC155C261DF8260400762606 /* ErkuPopFuncUIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC1DE0B71EC3A48300E36446 /* CustomTableViewCellErkuPop */,
+				CC155C231DF825FF00762606 /* ErkuPopFuncUIViewController.h */,
+				CC155C241DF825FF00762606 /* ErkuPopFuncUIViewController.m */,
+			);
+			name = ErkuPopFuncUIViewController;
+			sourceTree = "<group>";
+		};
+		CC159D021EB8693700B63BD9 /* EyleriDzevapoxvacMethodViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC159CFF1EB8693000B63BD9 /* EyleriDzevapoxvacMethodViewController.h */,
+				CC159D001EB8693000B63BD9 /* EyleriDzevapoxvacMethodViewController.m */,
+			);
+			name = EyleriDzevapoxvacMethodViewController;
+			sourceTree = "<group>";
+		};
+		CC159D061EB869EE00B63BD9 /* RungKuttiMethodViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC159D031EB869E200B63BD9 /* RungKuttiMethodViewController.h */,
+				CC159D041EB869E200B63BD9 /* RungKuttiMethodViewController.m */,
+			);
+			name = RungKuttiMethodViewController;
+			sourceTree = "<group>";
+		};
+		CC1C92EE1DF1AC8000E78020 = {
+			isa = PBXGroup;
+			children = (
+				CC1C92F91DF1AC8000E78020 /* DiplomaWork */,
+				CC1C93161DF1AC8000E78020 /* DiplomaWorkTests */,
+				CC1C93211DF1AC8000E78020 /* DiplomaWorkUITests */,
+				CC1C92F81DF1AC8000E78020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC1C92F81DF1AC8000E78020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C92F71DF1AC8000E78020 /* DiplomaWork.app */,
+				CC1C93131DF1AC8000E78020 /* DiplomaWorkTests.xctest */,
+				CC1C931E1DF1AC8000E78020 /* DiplomaWorkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1C92F91DF1AC8000E78020 /* DiplomaWork */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C93371DF2D0A900E78020 /* AppDelegate */,
+				CC1C93361DF2D08900E78020 /* MainMenuViewController */,
+				CC1C933B1DF2D0FD00E78020 /* FunkcianeriMotarkumViewController */,
+				CC3CAFBB1DF30BE900705587 /* IntegralneriHashvumViewController */,
+				CC1C93481DF2D1BA00E78020 /* DiferencialHavasarumnerViewController */,
+				CC80A1A61E389D7D00F19EC9 /* Main.storyboard */,
+				CC2ED50E1EC0A6B8008FD79D /* Assets.xcassets */,
+				CC2ED50D1EC06E39008FD79D /* MenuViewController */,
+				CC1C933C1DF2D11800E78020 /* Other */,
+				CC1C92FA1DF1AC8000E78020 /* Supporting Files */,
+			);
+			path = DiplomaWork;
+			sourceTree = "<group>";
+		};
+		CC1C92FA1DF1AC8000E78020 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C92FB1DF1AC8000E78020 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC1C93161DF1AC8000E78020 /* DiplomaWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C93171DF1AC8000E78020 /* DiplomaWorkTests.m */,
+				CC1C93191DF1AC8000E78020 /* Info.plist */,
+			);
+			path = DiplomaWorkTests;
+			sourceTree = "<group>";
+		};
+		CC1C93211DF1AC8000E78020 /* DiplomaWorkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C93221DF1AC8000E78020 /* DiplomaWorkUITests.m */,
+				CC1C93241DF1AC8000E78020 /* Info.plist */,
+			);
+			path = DiplomaWorkUITests;
+			sourceTree = "<group>";
+		};
+		CC1C93361DF2D08900E78020 /* MainMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC2ED5061EC06E0C008FD79D /* MainMenuViewController.h */,
+				CC2ED5071EC06E0C008FD79D /* MainMenuViewController.m */,
+			);
+			name = MainMenuViewController;
+			sourceTree = "<group>";
+		};
+		CC1C93371DF2D0A900E78020 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C92FD1DF1AC8000E78020 /* AppDelegate.h */,
+				CC1C92FE1DF1AC8000E78020 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CC1C933B1DF2D0FD00E78020 /* FunkcianeriMotarkumViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C93381DF2D0FA00E78020 /* FunkcianeriMotarkumViewController.h */,
+				CC1C93391DF2D0FA00E78020 /* FunkcianeriMotarkumViewController.m */,
+				CC0C34A21DF567D5008B8BD0 /* Header.h */,
+				CC155BFF1DF6CB5300762606 /* CustomTableViewCell */,
+				CC3CAFBF1DF31E0A00705587 /* Lagranji BanadzevViewController */,
+				CC155BFA1DF6CB0900762606 /* NewtoniBanadzevViewController */,
+				CC155C261DF8260400762606 /* ErkuPopFuncUIViewController */,
+			);
+			name = FunkcianeriMotarkumViewController;
+			sourceTree = "<group>";
+		};
+		CC1C933C1DF2D11800E78020 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CC1B891E1E9EB91D00E8F6BF /* LaunchScreen.storyboard */,
+				CC1C930E1DF1AC8000E78020 /* Info.plist */,
+				CC1C93061DF1AC8000E78020 /* DiplomaWork.xcdatamodeld */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		CC1C93481DF2D1BA00E78020 /* DiferencialHavasarumnerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC37120F1EA39CB3000AE4EF /* HeaderDiferencial.h */,
+				CC3EA94E1EC8AC51003D5960 /* HeaderForResult.h */,
+				CC37120E1EA3826A000AE4EF /* EylerMethodViewController */,
+				CC159D021EB8693700B63BD9 /* EyleriDzevapoxvacMethodViewController */,
+				CC159D061EB869EE00B63BD9 /* RungKuttiMethodViewController */,
+				CC3EA94D1EC84336003D5960 /* ResultTableViewCell */,
+			);
+			name = DiferencialHavasarumnerViewController;
+			sourceTree = "<group>";
+		};
+		CC1DE0B71EC3A48300E36446 /* CustomTableViewCellErkuPop */ = {
+			isa = PBXGroup;
+			children = (
+				CC1DE0B41EC3A47E00E36446 /* CustomTableViewCellErkuPop.h */,
+				CC1DE0B51EC3A47E00E36446 /* CustomTableViewCellErkuPop.m */,
+			);
+			name = CustomTableViewCellErkuPop;
+			sourceTree = "<group>";
+		};
+		CC2ED5041EC06DA3008FD79D /* MenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC2ED5011EC06D9D008FD79D /* MenuCell.h */,
+				CC2ED5021EC06D9D008FD79D /* MenuCell.m */,
+			);
+			name = MenuCell;
+			sourceTree = "<group>";
+		};
+		CC2ED50D1EC06E39008FD79D /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC2ED50B1EC06E26008FD79D /* ProtocolMenu.h */,
+				CC2ED5041EC06DA3008FD79D /* MenuCell */,
+				CC2ED5091EC06E26008FD79D /* MenuViewController.h */,
+				CC2ED50A1EC06E26008FD79D /* MenuViewController.m */,
+			);
+			name = MenuViewController;
+			sourceTree = "<group>";
+		};
+		CC37120E1EA3826A000AE4EF /* EylerMethodViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC37120B1EA38265000AE4EF /* EylerMethodViewController.h */,
+				CC37120C1EA38265000AE4EF /* EylerMethodViewController.m */,
+			);
+			name = EylerMethodViewController;
+			sourceTree = "<group>";
+		};
+		CC3712191EA39F1E000AE4EF /* CustomDiferencialTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC3712161EA39F0E000AE4EF /* CustomDiferencialTableViewCell.h */,
+				CC3712171EA39F0E000AE4EF /* CustomDiferencialTableViewCell.m */,
+			);
+			name = CustomDiferencialTableViewCell;
+			sourceTree = "<group>";
+		};
+		CC3CAFBB1DF30BE900705587 /* IntegralneriHashvumViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC155C1B1DF8132100762606 /* HeaderIntegral.h */,
+				CC3CAFB81DF30BE500705587 /* IntegralneriHashvumViewController.h */,
+				CC3CAFB91DF30BE500705587 /* IntegralneriHashvumViewController.m */,
+				CC155C221DF814D300762606 /* CustomIntegralTableViewCell */,
+				CC155C041DF7FCA300762606 /* UxxankayanBanadzevViewController */,
+				CC155C081DF7FCC900762606 /* SexaniBanadzevViewController */,
+				CC155C0C1DF7FCEE00762606 /* SimpsoniBanadzevViewController */,
+			);
+			name = IntegralneriHashvumViewController;
+			sourceTree = "<group>";
+		};
+		CC3CAFBF1DF31E0A00705587 /* Lagranji BanadzevViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC3CAFBC1DF31E0100705587 /* Lagranji BanadzevViewController.h */,
+				CC3CAFBD1DF31E0100705587 /* Lagranji BanadzevViewController.m */,
+			);
+			name = "Lagranji BanadzevViewController";
+			sourceTree = "<group>";
+		};
+		CC3EA9461EC84161003D5960 /* ResultViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC3EA9431EC84155003D5960 /* ResultViewController.h */,
+				CC3EA9441EC84155003D5960 /* ResultViewController.m */,
+			);
+			name = ResultViewController;
+			sourceTree = "<group>";
+		};
+		CC3EA94D1EC84336003D5960 /* ResultTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC3EA94A1EC84332003D5960 /* ResultTableViewCell.h */,
+				CC3EA94B1EC84332003D5960 /* ResultTableViewCell.m */,
+				CC3EA9461EC84161003D5960 /* ResultViewController */,
+				CC3712191EA39F1E000AE4EF /* CustomDiferencialTableViewCell */,
+				CC1C93451DF2D1AE00E78020 /* DiferencialHavasarumnerViewController.h */,
+				CC1C93461DF2D1AE00E78020 /* DiferencialHavasarumnerViewController.m */,
+			);
+			name = ResultTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC1C92F61DF1AC8000E78020 /* DiplomaWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1C93271DF1AC8000E78020 /* Build configuration list for PBXNativeTarget "DiplomaWork" */;
+			buildPhases = (
+				CC1C92F31DF1AC8000E78020 /* Sources */,
+				CC1C92F41DF1AC8000E78020 /* Frameworks */,
+				CC1C92F51DF1AC8000E78020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiplomaWork;
+			productName = DiplomaWork;
+			productReference = CC1C92F71DF1AC8000E78020 /* DiplomaWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC1C93121DF1AC8000E78020 /* DiplomaWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1C932A1DF1AC8000E78020 /* Build configuration list for PBXNativeTarget "DiplomaWorkTests" */;
+			buildPhases = (
+				CC1C930F1DF1AC8000E78020 /* Sources */,
+				CC1C93101DF1AC8000E78020 /* Frameworks */,
+				CC1C93111DF1AC8000E78020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1C93151DF1AC8000E78020 /* PBXTargetDependency */,
+			);
+			name = DiplomaWorkTests;
+			productName = DiplomaWorkTests;
+			productReference = CC1C93131DF1AC8000E78020 /* DiplomaWorkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC1C931D1DF1AC8000E78020 /* DiplomaWorkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1C932D1DF1AC8000E78020 /* Build configuration list for PBXNativeTarget "DiplomaWorkUITests" */;
+			buildPhases = (
+				CC1C931A1DF1AC8000E78020 /* Sources */,
+				CC1C931B1DF1AC8000E78020 /* Frameworks */,
+				CC1C931C1DF1AC8000E78020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1C93201DF1AC8000E78020 /* PBXTargetDependency */,
+			);
+			name = DiplomaWorkUITests;
+			productName = DiplomaWorkUITests;
+			productReference = CC1C931E1DF1AC8000E78020 /* DiplomaWorkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC1C92EF1DF1AC8000E78020 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Meri;
+				TargetAttributes = {
+					CC1C92F61DF1AC8000E78020 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2PW8UE683V;
+					};
+					CC1C93121DF1AC8000E78020 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2PW8UE683V;
+						TestTargetID = CC1C92F61DF1AC8000E78020;
+					};
+					CC1C931D1DF1AC8000E78020 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2PW8UE683V;
+						TestTargetID = CC1C92F61DF1AC8000E78020;
+					};
+				};
+			};
+			buildConfigurationList = CC1C92F21DF1AC8000E78020 /* Build configuration list for PBXProject "DiplomaWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC1C92EE1DF1AC8000E78020;
+			productRefGroup = CC1C92F81DF1AC8000E78020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC1C92F61DF1AC8000E78020 /* DiplomaWork */,
+				CC1C93121DF1AC8000E78020 /* DiplomaWorkTests */,
+				CC1C931D1DF1AC8000E78020 /* DiplomaWorkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC1C92F51DF1AC8000E78020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1B891F1E9EB91D00E8F6BF /* LaunchScreen.storyboard in Resources */,
+				CC2ED50F1EC0A6B8008FD79D /* Assets.xcassets in Resources */,
+				CC80A1A71E389D7D00F19EC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1C93111DF1AC8000E78020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1C931C1DF1AC8000E78020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC1C92F31DF1AC8000E78020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1C93081DF1AC8000E78020 /* DiplomaWork.xcdatamodeld in Sources */,
+				CC1C933A1DF2D0FA00E78020 /* FunkcianeriMotarkumViewController.m in Sources */,
+				CC155BF91DF6CB0600762606 /* NewtoniBanadzevViewController.m in Sources */,
+				CC3EA9451EC84155003D5960 /* ResultViewController.m in Sources */,
+				CC37120D1EA38265000AE4EF /* EylerMethodViewController.m in Sources */,
+				CC2ED5081EC06E0C008FD79D /* MainMenuViewController.m in Sources */,
+				CC155C211DF814CA00762606 /* CustomIntegralTableViewCell.m in Sources */,
+				CC3CAFBE1DF31E0100705587 /* Lagranji BanadzevViewController.m in Sources */,
+				CC159D011EB8693000B63BD9 /* EyleriDzevapoxvacMethodViewController.m in Sources */,
+				CC155C0B1DF7FCEA00762606 /* SimpsoniBanadzevViewController.m in Sources */,
+				CC155C251DF825FF00762606 /* ErkuPopFuncUIViewController.m in Sources */,
+				CC155C031DF7FC9100762606 /* UxxankyanBanadzevViewController.m in Sources */,
+				CC3CAFBA1DF30BE500705587 /* IntegralneriHashvumViewController.m in Sources */,
+				CC1C92FF1DF1AC8000E78020 /* AppDelegate.m in Sources */,
+				CC0C34A11DF55EE2008B8BD0 /* CustomTableViewCell.m in Sources */,
+				CC1C92FC1DF1AC8000E78020 /* main.m in Sources */,
+				CC159D051EB869E200B63BD9 /* RungKuttiMethodViewController.m in Sources */,
+				CC2ED50C1EC06E26008FD79D /* MenuViewController.m in Sources */,
+				CC3EA94C1EC84332003D5960 /* ResultTableViewCell.m in Sources */,
+				CC1DE0B61EC3A47E00E36446 /* CustomTableViewCellErkuPop.m in Sources */,
+				CC3712181EA39F0E000AE4EF /* CustomDiferencialTableViewCell.m in Sources */,
+				CC1C93471DF2D1AE00E78020 /* DiferencialHavasarumnerViewController.m in Sources */,
+				CC155C071DF7FCC400762606 /* SexaniBanadzevViewController.m in Sources */,
+				CC2ED5031EC06D9D008FD79D /* MenuCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1C930F1DF1AC8000E78020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1C93181DF1AC8000E78020 /* DiplomaWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1C931A1DF1AC8000E78020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1C93231DF1AC8000E78020 /* DiplomaWorkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC1C93151DF1AC8000E78020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC1C92F61DF1AC8000E78020 /* DiplomaWork */;
+			targetProxy = CC1C93141DF1AC8000E78020 /* PBXContainerItemProxy */;
+		};
+		CC1C93201DF1AC8000E78020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC1C92F61DF1AC8000E78020 /* DiplomaWork */;
+			targetProxy = CC1C931F1DF1AC8000E78020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC1C93251DF1AC8000E78020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC1C93261DF1AC8000E78020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC1C93281DF1AC8000E78020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				ASSET_PACK_MANIFEST_URL_PREFIX = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2PW8UE683V;
+				INFOPLIST_FILE = DiplomaWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meri.DiplomaWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CC1C93291DF1AC8000E78020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				ASSET_PACK_MANIFEST_URL_PREFIX = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2PW8UE683V;
+				INFOPLIST_FILE = DiplomaWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meri.DiplomaWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CC1C932B1DF1AC8000E78020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiplomaWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meri.DiplomaWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiplomaWork.app/DiplomaWork";
+			};
+			name = Debug;
+		};
+		CC1C932C1DF1AC8000E78020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiplomaWorkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meri.DiplomaWorkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiplomaWork.app/DiplomaWork";
+			};
+			name = Release;
+		};
+		CC1C932E1DF1AC8000E78020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiplomaWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meri.DiplomaWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiplomaWork;
+			};
+			name = Debug;
+		};
+		CC1C932F1DF1AC8000E78020 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DiplomaWorkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.meri.DiplomaWorkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DiplomaWork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1C92F21DF1AC8000E78020 /* Build configuration list for PBXProject "DiplomaWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1C93251DF1AC8000E78020 /* Debug */,
+				CC1C93261DF1AC8000E78020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1C93271DF1AC8000E78020 /* Build configuration list for PBXNativeTarget "DiplomaWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1C93281DF1AC8000E78020 /* Debug */,
+				CC1C93291DF1AC8000E78020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1C932A1DF1AC8000E78020 /* Build configuration list for PBXNativeTarget "DiplomaWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1C932B1DF1AC8000E78020 /* Debug */,
+				CC1C932C1DF1AC8000E78020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1C932D1DF1AC8000E78020 /* Build configuration list for PBXNativeTarget "DiplomaWorkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1C932E1DF1AC8000E78020 /* Debug */,
+				CC1C932F1DF1AC8000E78020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC1C93061DF1AC8000E78020 /* DiplomaWork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC1C93071DF1AC8000E78020 /* DiplomaWork.xcdatamodel */,
+			);
+			currentVersion = CC1C93071DF1AC8000E78020 /* DiplomaWork.xcdatamodel */;
+			path = DiplomaWork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC1C92EF1DF1AC8000E78020 /* Project object */;
+}
