@@ -6,6 +6,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,26 +15,54 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SubjectCell" id="gTV-IL-0wX" customClass="SubectsCollectionViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="333" height="335"/>
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="333" height="335"/>
+                <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SFq-vF-IXi">
-                        <rect key="frame" x="5" y="5" width="323" height="325"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mua-TR-qa5">
+                        <rect key="frame" x="45" y="0.0" width="210" height="210"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L4M-wa-taN">
+                                <rect key="frame" x="53.5" y="53.5" width="105" height="105"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="L4M-wa-taN" secondAttribute="height" multiplier="1:1" id="WX3-Y0-9iE"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="L4M-wa-taN" firstAttribute="width" secondItem="mua-TR-qa5" secondAttribute="width" multiplier="0.5" id="VPm-Hy-r8i"/>
+                            <constraint firstItem="L4M-wa-taN" firstAttribute="centerX" secondItem="mua-TR-qa5" secondAttribute="centerX" id="YXK-Zc-8lJ"/>
+                            <constraint firstAttribute="width" secondItem="mua-TR-qa5" secondAttribute="height" multiplier="1:1" id="YZM-ML-cvm"/>
+                            <constraint firstItem="L4M-wa-taN" firstAttribute="centerY" secondItem="mua-TR-qa5" secondAttribute="centerY" id="sDM-EC-bOL"/>
+                        </constraints>
                     </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2E-Sx-AS4">
+                        <rect key="frame" x="0.0" y="215" width="300" height="85"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
             </view>
             <constraints>
-                <constraint firstItem="SFq-vF-IXi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="EZd-hu-lEA"/>
-                <constraint firstAttribute="bottom" secondItem="SFq-vF-IXi" secondAttribute="bottom" constant="5" id="Qid-Ke-7Qt"/>
-                <constraint firstAttribute="trailing" secondItem="SFq-vF-IXi" secondAttribute="trailing" constant="5" id="UHF-eh-tVK"/>
-                <constraint firstItem="SFq-vF-IXi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="hEh-Cg-bB3"/>
+                <constraint firstItem="mua-TR-qa5" firstAttribute="top" secondItem="SEy-5g-ep8" secondAttribute="top" id="7hp-AJ-UzX"/>
+                <constraint firstItem="mua-TR-qa5" firstAttribute="centerX" secondItem="SEy-5g-ep8" secondAttribute="centerX" id="H3G-bl-v4Q"/>
+                <constraint firstItem="mua-TR-qa5" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.7" id="OEb-aL-2dL"/>
+                <constraint firstItem="O2E-Sx-AS4" firstAttribute="top" secondItem="mua-TR-qa5" secondAttribute="bottom" constant="5" id="Sno-lI-HfD"/>
+                <constraint firstItem="SEy-5g-ep8" firstAttribute="bottom" secondItem="O2E-Sx-AS4" secondAttribute="bottom" id="eYl-VC-xbx"/>
+                <constraint firstItem="O2E-Sx-AS4" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="hv3-0k-mhe"/>
+                <constraint firstItem="O2E-Sx-AS4" firstAttribute="centerX" secondItem="mua-TR-qa5" secondAttribute="centerX" id="sX2-lt-tGf"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
             <size key="customSize" width="333" height="335"/>
+            <connections>
+                <outlet property="backView" destination="mua-TR-qa5" id="Oq9-sw-fBh"/>
+                <outlet property="image" destination="L4M-wa-taN" id="Ao8-4q-U8D"/>
+                <outlet property="titel" destination="O2E-Sx-AS4" id="KyS-es-GcK"/>
+            </connections>
             <point key="canvasLocation" x="-187.5" y="7.5"/>
         </collectionViewCell>
     </objects>

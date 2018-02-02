@@ -11,8 +11,6 @@
 #import "BeFreeCollectionViewCell.h"
 #import "SubectsCollectionViewCell.h"
 
-#import "LGSideMenuController.h"
-#import "UIViewController+LGSideMenuController.h"
 
 #define WLPdata @"WLPdata.json"
 #define BFdata @"BFdata.json"
@@ -41,20 +39,7 @@ static NSString *SubjectIdentifier = @"SubjectCell";
     [self.BFCollection registerNib:[UINib nibWithNibName:@"BeFreeCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:BeFreeIdentifier];
     [self.SubjectsCollection registerNib:[UINib nibWithNibName:@"SubectsCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:SubjectIdentifier];
     
-    
     [self parseJSON];
-    
-    
-//    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Left"
-//                                                                             style:UIBarButtonItemStylePlain
-//                                                                            target:self
-//                                                                            action:@selector(showLeftView)];
-//
-//    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Right"
-//                                                                              style:UIBarButtonItemStylePlain
-//                                                                             target:self
-//                                                                             action:@selector(showRightView)];
-//
 
 }
 
@@ -62,22 +47,15 @@ static NSString *SubjectIdentifier = @"SubjectCell";
     [super didReceiveMemoryWarning];
 }
 
-//- (void)showLeftView {
-//    [self.sideMenuController showLeftViewAnimated:YES completionHandler:nil];
-//}
-//
-//- (void)showRightView {
-//    [self.sideMenuController showRightViewAnimated:YES completionHandler:nil];
-//}
-
-
-
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     if([collectionView isEqual:self.wlpCollection]) {
         return 6;
     }
     if([collectionView isEqual:self.BFCollection]) {
         return 3;
+    }
+    if([collectionView isEqual:self.SubjectsCollection]) {
+        return 5;
     }
     return 10;
 }
@@ -163,6 +141,36 @@ static NSString *SubjectIdentifier = @"SubjectCell";
         return cell;
     } else if([collectionView isEqual:self.SubjectsCollection]){
         SubectsCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:SubjectIdentifier forIndexPath:indexPath];
+        
+        
+        switch (indexPath.row) {
+                //TO CHANGE TO JSON
+            case 0:
+                cell.backView.backgroundColor = [UIColor colorWithRed:0.93 green:0.36 blue:0.27 alpha:1.0];
+                cell.titel.text = @"ՖԻԶԻԿԱ";
+                cell.image.image = [UIImage imageNamed:@"physics.png"];
+                break;
+            case 1:
+                cell.backView.backgroundColor = [UIColor colorWithRed:0.39 green:0.80 blue:0.44 alpha:1.0];
+                cell.titel.text = @"ԵՐԿՐԱՉԱՓՈՒԹՅՈՒՆ";
+                cell.image.image = [UIImage imageNamed:@"math1.png"];
+                break;
+            case 2:
+                cell.backView.backgroundColor = [UIColor colorWithRed:0.37 green:0.80 blue:0.76 alpha:1.0];
+                cell.titel.text = @"ՄԱԹԵՄԱՏԻԿԱ";
+                cell.image.image = [UIImage imageNamed:@"math.png"];
+                break;
+            case 3:
+                cell.backView.backgroundColor = [UIColor colorWithRed:0.93 green:0.37 blue:0.39 alpha:1.0];
+                cell.titel.text = @"ՔԻՄԻԱ";
+                cell.image.image = [UIImage imageNamed:@"chemistry.png"];
+                break;
+            case 4:
+                cell.backView.backgroundColor = [UIColor colorWithRed:0.19 green:0.42 blue:0.16 alpha:1.0];
+                cell.titel.text = @"ԿԵՆՍԱԲԱՆՈՒԹՅՈՒՆ";
+                cell.image.image = [UIImage imageNamed:@"microscope.png"];
+                break;
+        }
         //TO DO
         //NEED API
         return cell;
@@ -178,7 +186,7 @@ static NSString *SubjectIdentifier = @"SubjectCell";
         case 2:
             return self.view.frame.size.height / 1.1f;
         case 4:
-            return self.view.frame.size.height / 3.0f;
+            return self.view.frame.size.height / 2.0f;
         default:
             break;
     }
@@ -200,13 +208,22 @@ static NSString *SubjectIdentifier = @"SubjectCell";
     if([collectionView isEqual:self.wlpCollection]){
         return CGSizeMake(height / 1.22, height );
     }else{
-        return CGSizeMake(height/1.7, height);
+        if([collectionView isEqual:self.BFCollection]){
+            return CGSizeMake(height / 1.7, height );
+        } else {
+            return CGSizeMake(height/1.3, height/1.3);
+        }
     }
 }
 
 
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section{
     return 2;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath{
+    if ([collectionView isEqual:self.SubjectsCollection]) {
+    }
 }
 
 

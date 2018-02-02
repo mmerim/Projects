@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  RightView.h
 //  LearnPro
 //
-//  Created by Meri on 1/23/18.
+//  Created by Meri on 2/1/18.
 //  Copyright © 2018 Meri. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RightView : UITableViewController
 
 @end

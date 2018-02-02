@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface SubectsCollectionViewCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIView *backView;
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+@property (weak, nonatomic) IBOutlet UILabel *titel;
 
 @end

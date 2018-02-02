@@ -8,19 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CC12E42F1FCD347200DFCC0E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC12E42E1FCD346C00DFCC0E /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		CC21807D20186FC500418476 /* LeftViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC217FFE20186FC400418476 /* LeftViewCell.m */; };
-		CC21807E20186FC500418476 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC21800020186FC400418476 /* LeftViewController.m */; };
-		CC21808220186FC500418476 /* RightViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC21800720186FC400418476 /* RightViewCell.m */; };
-		CC21808320186FC500418476 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC21800920186FC400418476 /* RightViewController.m */; };
-		CC2180C020187C6B00418476 /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2180B220187C6900418476 /* LGSideMenuSegue.m */; };
-		CC2180C120187C6B00418476 /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2180B720187C6A00418476 /* LGSideMenuView.m */; };
-		CC2180C220187C6B00418476 /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2180B820187C6A00418476 /* UIViewController+LGSideMenuController.m */; };
-		CC2180C320187C6B00418476 /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2180BC20187C6B00418476 /* LGSideMenuBorderView.m */; };
-		CC2180C420187C6B00418476 /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2180BD20187C6B00418476 /* LGSideMenuGesturesHandler.m */; };
-		CC2180C520187C6B00418476 /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2180BE20187C6B00418476 /* LGSideMenuController.m */; };
-		CC2180C620187C6B00418476 /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2180BF20187C6B00418476 /* LGSideMenuHelper.m */; };
-		CC2180CA20187E2C00418476 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2180C920187E2B00418476 /* MainViewController.m */; };
-		CC2180CD2018825B00418476 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2180CC2018825A00418476 /* NavigationController.m */; };
 		CC22795A200A97E4005949A1 /* MSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC227959200A97E3005949A1 /* MSNavigationController.m */; };
 		CC22795D200A981C005949A1 /* UIViewController+MSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC22795C200A981C005949A1 /* UIViewController+MSExtensions.m */; };
 		CC227960200A985A005949A1 /* UIColor+MSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC22795F200A9859005949A1 /* UIColor+MSAdditions.m */; };
@@ -37,7 +24,13 @@
 		CC227A1020120CEF005949A1 /* SubectsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC227A0E20120CEF005949A1 /* SubectsCollectionViewCell.xib */; };
 		CC227A1320177655005949A1 /* BFdata.json in Resources */ = {isa = PBXBuildFile; fileRef = CC227A1220177655005949A1 /* BFdata.json */; };
 		CC227A152017765A005949A1 /* WLPdata.json in Resources */ = {isa = PBXBuildFile; fileRef = CC227A142017765A005949A1 /* WLPdata.json */; };
-		CC227A182017A915005949A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC227A172017A915005949A1 /* ViewController.m */; };
+		CC26BA6E2023235E00901CC9 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BA662023235D00901CC9 /* UIViewController+MMDrawerController.m */; };
+		CC26BA6F2023235E00901CC9 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BA692023235E00901CC9 /* MMDrawerBarButtonItem.m */; };
+		CC26BA702023235E00901CC9 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BA6B2023235E00901CC9 /* MMDrawerController.m */; };
+		CC26BA712023235E00901CC9 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BA6D2023235E00901CC9 /* MMDrawerVisualState.m */; };
+		CC26BA8D20232D7400901CC9 /* LeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BA8C20232D7400901CC9 /* LeftView.m */; };
+		CC26BA9020232D9200901CC9 /* RightView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BA8F20232D9200901CC9 /* RightView.m */; };
+		CC26BA9320232E2400901CC9 /* MenuSide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC26BA9120232E2300901CC9 /* MenuSide.storyboard */; };
 		CC6B11301FCC2C8B00F518AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B112F1FCC2C8B00F518AB /* AppDelegate.m */; };
 		CC6B11361FCC2C8B00F518AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6B11341FCC2C8B00F518AB /* Main.storyboard */; };
 		CC6B11391FCC2C8B00F518AB /* LearnPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC6B11371FCC2C8B00F518AB /* LearnPro.xcdatamodeld */; };
@@ -80,32 +73,6 @@
 /* Begin PBXFileReference section */
 		CC12E42E1FCD346C00DFCC0E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CC12E4301FCD348100DFCC0E /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
-		CC217FFD20186FC400418476 /* LeftViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
-		CC217FFE20186FC400418476 /* LeftViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewCell.m; sourceTree = "<group>"; };
-		CC217FFF20186FC400418476 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
-		CC21800020186FC400418476 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
-		CC21800620186FC400418476 /* RightViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewCell.h; sourceTree = "<group>"; };
-		CC21800720186FC400418476 /* RightViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewCell.m; sourceTree = "<group>"; };
-		CC21800820186FC400418476 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
-		CC21800920186FC400418476 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
-		CC2180B220187C6900418476 /* LGSideMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuSegue.m; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/LGSideMenuSegue.m"; sourceTree = "<group>"; };
-		CC2180B320187C6900418476 /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LGSideMenuController.h"; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
-		CC2180B420187C6900418476 /* LGSideMenuHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LGSideMenuHelper.h; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/LGSideMenuHelper.h"; sourceTree = "<group>"; };
-		CC2180B520187C6900418476 /* LGSideMenuGesturesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LGSideMenuGesturesHandler.h; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/LGSideMenuGesturesHandler.h"; sourceTree = "<group>"; };
-		CC2180B620187C6900418476 /* LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LGSideMenuController.h; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/LGSideMenuController.h"; sourceTree = "<group>"; };
-		CC2180B720187C6A00418476 /* LGSideMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuView.m; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/LGSideMenuView.m"; sourceTree = "<group>"; };
-		CC2180B820187C6A00418476 /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LGSideMenuController.m"; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
-		CC2180B920187C6A00418476 /* LGSideMenuBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LGSideMenuBorderView.h; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/LGSideMenuBorderView.h"; sourceTree = "<group>"; };
-		CC2180BA20187C6A00418476 /* LGSideMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LGSideMenuView.h; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/LGSideMenuView.h"; sourceTree = "<group>"; };
-		CC2180BB20187C6A00418476 /* LGSideMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LGSideMenuSegue.h; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/LGSideMenuSegue.h"; sourceTree = "<group>"; };
-		CC2180BC20187C6B00418476 /* LGSideMenuBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuBorderView.m; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/LGSideMenuBorderView.m"; sourceTree = "<group>"; };
-		CC2180BD20187C6B00418476 /* LGSideMenuGesturesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuGesturesHandler.m; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/LGSideMenuGesturesHandler.m"; sourceTree = "<group>"; };
-		CC2180BE20187C6B00418476 /* LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuController.m; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/LGSideMenuController.m"; sourceTree = "<group>"; };
-		CC2180BF20187C6B00418476 /* LGSideMenuHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LGSideMenuHelper.m; path = "../../../../../Downloads/LGSideMenuController-master/LGSideMenuController/LGSideMenuHelper.m"; sourceTree = "<group>"; };
-		CC2180C820187E2B00418476 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		CC2180C920187E2B00418476 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		CC2180CB2018825A00418476 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
-		CC2180CC2018825A00418476 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 		CC227958200A97E3005949A1 /* MSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSNavigationController.h; path = LearnPro/MSNavigationController.h; sourceTree = SOURCE_ROOT; };
 		CC227959200A97E3005949A1 /* MSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSNavigationController.m; path = LearnPro/MSNavigationController.m; sourceTree = SOURCE_ROOT; };
 		CC22795B200A981C005949A1 /* UIViewController+MSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MSExtensions.h"; path = "LearnPro/UIViewController+MSExtensions.h"; sourceTree = SOURCE_ROOT; };
@@ -132,8 +99,20 @@
 		CC227A0E20120CEF005949A1 /* SubectsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubectsCollectionViewCell.xib; sourceTree = "<group>"; };
 		CC227A1220177655005949A1 /* BFdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BFdata.json; path = LearnPro/BFdata.json; sourceTree = SOURCE_ROOT; };
 		CC227A142017765A005949A1 /* WLPdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = WLPdata.json; path = LearnPro/WLPdata.json; sourceTree = SOURCE_ROOT; };
-		CC227A162017A915005949A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CC227A172017A915005949A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC26BA652023235D00901CC9 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerController.h"; sourceTree = "<group>"; };
+		CC26BA662023235D00901CC9 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MMDrawerController.m"; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		CC26BA672023235D00901CC9 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MMDrawerController.h"; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		CC26BA682023235D00901CC9 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerBarButtonItem.h"; sourceTree = "<group>"; };
+		CC26BA692023235E00901CC9 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerBarButtonItem.m"; sourceTree = "<group>"; };
+		CC26BA6A2023235E00901CC9 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MMDrawerController+Subclass.h"; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		CC26BA6B2023235E00901CC9 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerController.m; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerController.m"; sourceTree = "<group>"; };
+		CC26BA6C2023235E00901CC9 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerVisualState.h; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerVisualState.h"; sourceTree = "<group>"; };
+		CC26BA6D2023235E00901CC9 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerVisualState.m; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerVisualState.m"; sourceTree = "<group>"; };
+		CC26BA8B20232D7400901CC9 /* LeftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftView.h; sourceTree = "<group>"; };
+		CC26BA8C20232D7400901CC9 /* LeftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftView.m; sourceTree = "<group>"; };
+		CC26BA8E20232D9200901CC9 /* RightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightView.h; sourceTree = "<group>"; };
+		CC26BA8F20232D9200901CC9 /* RightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightView.m; sourceTree = "<group>"; };
+		CC26BA9220232E2300901CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MenuSide.storyboard; sourceTree = "<group>"; };
 		CC6B112B1FCC2C8B00F518AB /* LearnPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6B112E1FCC2C8B00F518AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC6B112F1FCC2C8B00F518AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -206,67 +185,6 @@
 				CC12E42E1FCD346C00DFCC0E /* MapKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CC217FC52018650A00418476 /* MenuSide */ = {
-			isa = PBXGroup;
-			children = (
-				CC217FDB20186FC400418476 /* LGSideMenuController */,
-			);
-			path = MenuSide;
-			sourceTree = "<group>";
-		};
-		CC217FDB20186FC400418476 /* LGSideMenuController */ = {
-			isa = PBXGroup;
-			children = (
-				CC2180B920187C6A00418476 /* LGSideMenuBorderView.h */,
-				CC2180BC20187C6B00418476 /* LGSideMenuBorderView.m */,
-				CC2180B620187C6900418476 /* LGSideMenuController.h */,
-				CC2180BE20187C6B00418476 /* LGSideMenuController.m */,
-				CC2180B520187C6900418476 /* LGSideMenuGesturesHandler.h */,
-				CC2180BD20187C6B00418476 /* LGSideMenuGesturesHandler.m */,
-				CC2180B420187C6900418476 /* LGSideMenuHelper.h */,
-				CC2180BF20187C6B00418476 /* LGSideMenuHelper.m */,
-				CC2180BB20187C6A00418476 /* LGSideMenuSegue.h */,
-				CC2180B220187C6900418476 /* LGSideMenuSegue.m */,
-				CC2180BA20187C6A00418476 /* LGSideMenuView.h */,
-				CC2180B720187C6A00418476 /* LGSideMenuView.m */,
-				CC2180B320187C6900418476 /* UIViewController+LGSideMenuController.h */,
-				CC2180B820187C6A00418476 /* UIViewController+LGSideMenuController.m */,
-			);
-			name = LGSideMenuController;
-			path = "LGSideMenuController-master/LGSideMenuController";
-			sourceTree = SOURCE_ROOT;
-		};
-		CC2180B020187C1400418476 /* Left View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CC217FFD20186FC400418476 /* LeftViewCell.h */,
-				CC217FFE20186FC400418476 /* LeftViewCell.m */,
-				CC217FFF20186FC400418476 /* LeftViewController.h */,
-				CC21800020186FC400418476 /* LeftViewController.m */,
-			);
-			path = "Left View Controller";
-			sourceTree = "<group>";
-		};
-		CC2180B120187C3200418476 /* Right View Controller */ = {
-			isa = PBXGroup;
-			children = (
-				CC21800620186FC400418476 /* RightViewCell.h */,
-				CC21800720186FC400418476 /* RightViewCell.m */,
-				CC21800820186FC400418476 /* RightViewController.h */,
-				CC21800920186FC400418476 /* RightViewController.m */,
-			);
-			path = "Right View Controller";
-			sourceTree = "<group>";
-		};
-		CC2180C720187E0900418476 /* Menu */ = {
-			isa = PBXGroup;
-			children = (
-				CC2180C820187E2B00418476 /* MainViewController.h */,
-				CC2180C920187E2B00418476 /* MainViewController.m */,
-			);
-			path = Menu;
 			sourceTree = "<group>";
 		};
 		CC22796C200FA42C005949A1 /* DemoCollectionViewCell */ = {
@@ -362,6 +280,40 @@
 			path = SubectsCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		CC26BA5F202322D100901CC9 /* LeftViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC26BA8B20232D7400901CC9 /* LeftView.h */,
+				CC26BA8C20232D7400901CC9 /* LeftView.m */,
+			);
+			path = LeftViewController;
+			sourceTree = "<group>";
+		};
+		CC26BA63202322F800901CC9 /* RightViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC26BA8E20232D9200901CC9 /* RightView.h */,
+				CC26BA8F20232D9200901CC9 /* RightView.m */,
+			);
+			path = RightViewController;
+			sourceTree = "<group>";
+		};
+		CC26BA642023235500901CC9 /* MMDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				CC26BA682023235D00901CC9 /* MMDrawerBarButtonItem.h */,
+				CC26BA692023235E00901CC9 /* MMDrawerBarButtonItem.m */,
+				CC26BA652023235D00901CC9 /* MMDrawerController.h */,
+				CC26BA6B2023235E00901CC9 /* MMDrawerController.m */,
+				CC26BA6A2023235E00901CC9 /* MMDrawerController+Subclass.h */,
+				CC26BA6C2023235E00901CC9 /* MMDrawerVisualState.h */,
+				CC26BA6D2023235E00901CC9 /* MMDrawerVisualState.m */,
+				CC26BA672023235D00901CC9 /* UIViewController+MMDrawerController.h */,
+				CC26BA662023235D00901CC9 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawer;
+			sourceTree = "<group>";
+		};
 		CC6B11221FCC2C8B00F518AB = {
 			isa = PBXGroup;
 			children = (
@@ -386,20 +338,16 @@
 		CC6B112D1FCC2C8B00F518AB /* LearnPro */ = {
 			isa = PBXGroup;
 			children = (
-				CC217FC52018650A00418476 /* MenuSide */,
 				CC6B11771FCC3F8C00F518AB /* LearnProCore */,
 				CC6B112E1FCC2C8B00F518AB /* AppDelegate.h */,
 				CC6B112F1FCC2C8B00F518AB /* AppDelegate.m */,
-				CC2180CB2018825A00418476 /* NavigationController.h */,
-				CC2180CC2018825A00418476 /* NavigationController.m */,
 				CC6B11341FCC2C8B00F518AB /* Main.storyboard */,
+				CC26BA9120232E2300901CC9 /* MenuSide.storyboard */,
 				CC6B113A1FCC2C8B00F518AB /* Assets.xcassets */,
 				CC6B113C1FCC2C8B00F518AB /* LaunchScreen.storyboard */,
 				CC6B113F1FCC2C8B00F518AB /* Info.plist */,
 				CC6B11401FCC2C8B00F518AB /* main.m */,
 				CC6B11371FCC2C8B00F518AB /* LearnPro.xcdatamodeld */,
-				CC227A162017A915005949A1 /* ViewController.h */,
-				CC227A172017A915005949A1 /* ViewController.m */,
 			);
 			path = LearnPro;
 			sourceTree = "<group>";
@@ -456,9 +404,9 @@
 		CC6B11781FCC3F9600F518AB /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				CC2180C720187E0900418476 /* Menu */,
-				CC2180B120187C3200418476 /* Right View Controller */,
-				CC2180B020187C1400418476 /* Left View Controller */,
+				CC26BA642023235500901CC9 /* MMDrawer */,
+				CC26BA63202322F800901CC9 /* RightViewController */,
+				CC26BA5F202322D100901CC9 /* LeftViewController */,
 				CC7CB4CF1FF052BD00A21748 /* RegisterViewController */,
 				CC7CB4CE1FF052AE00A21748 /* LogInViewController */,
 				CC6B11671FCC3F0C00F518AB /* TabBar */,
@@ -636,6 +584,7 @@
 				CC6B113E1FCC2C8B00F518AB /* LaunchScreen.storyboard in Resources */,
 				CC6B113B1FCC2C8B00F518AB /* Assets.xcassets in Resources */,
 				CCFF4ABE2009EF9F008832EA /* SubviewViewController.xib in Resources */,
+				CC26BA9320232E2400901CC9 /* MenuSide.storyboard in Resources */,
 				CC6B11361FCC2C8B00F518AB /* Main.storyboard in Resources */,
 				CC227A04201208EE005949A1 /* WhyLearnProCollectionViewCell.xib in Resources */,
 				CC227A152017765A005949A1 /* WLPdata.json in Resources */,
@@ -668,8 +617,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC26BA712023235E00901CC9 /* MMDrawerVisualState.m in Sources */,
 				CC6EF43F1FD5426C00C81EED /* TabBarViewController.m in Sources */,
-				CC2180C420187C6B00418476 /* LGSideMenuGesturesHandler.m in Sources */,
 				CC7CB4CD1FF052A600A21748 /* LogInViewController.m in Sources */,
 				CC22796A200FA425005949A1 /* DemoCollectionViewCell.m in Sources */,
 				CC227A0F20120CEF005949A1 /* SubectsCollectionViewCell.m in Sources */,
@@ -677,34 +626,26 @@
 				CC22795A200A97E4005949A1 /* MSNavigationController.m in Sources */,
 				CC7BB6F11FD87DC300348625 /* NewsCollectionViewCell.m in Sources */,
 				CC6B116D1FCC3F3F00F518AB /* AboutUsViewController.m in Sources */,
+				CC26BA9020232D9200901CC9 /* RightView.m in Sources */,
 				CC22795D200A981C005949A1 /* UIViewController+MSExtensions.m in Sources */,
+				CC26BA702023235E00901CC9 /* MMDrawerController.m in Sources */,
 				CC227960200A985A005949A1 /* UIColor+MSAdditions.m in Sources */,
-				CC21808320186FC500418476 /* RightViewController.m in Sources */,
-				CC2180C520187C6B00418476 /* LGSideMenuController.m in Sources */,
 				CCFF4AB6200545BB008832EA /* NSString+EmailValidation.m in Sources */,
-				CC2180CD2018825B00418476 /* NavigationController.m in Sources */,
-				CC21808220186FC500418476 /* RightViewCell.m in Sources */,
 				CC6B11301FCC2C8B00F518AB /* AppDelegate.m in Sources */,
+				CC26BA6F2023235E00901CC9 /* MMDrawerBarButtonItem.m in Sources */,
 				CC22796F200FB243005949A1 /* DemoCellInfoViewController.m in Sources */,
 				CC7CB4D21FF052CF00A21748 /* RegisterViewController.m in Sources */,
+				CC26BA6E2023235E00901CC9 /* UIViewController+MMDrawerController.m in Sources */,
 				CC6B11411FCC2C8B00F518AB /* main.m in Sources */,
+				CC26BA8D20232D7400901CC9 /* LeftView.m in Sources */,
 				CC6B11761FCC3F7E00F518AB /* NewsViewController.m in Sources */,
 				CC227973200FC76D005949A1 /* NewsCellInfoViewController.m in Sources */,
 				CC6B11701FCC3F5400F518AB /* ContactUsViewController.m in Sources */,
 				CC227A03201208EE005949A1 /* WhyLearnProCollectionViewCell.m in Sources */,
-				CC2180C220187C6B00418476 /* UIViewController+LGSideMenuController.m in Sources */,
-				CC227A182017A915005949A1 /* ViewController.m in Sources */,
-				CC21807D20186FC500418476 /* LeftViewCell.m in Sources */,
 				CCFF4ABD2009EF9F008832EA /* SubviewViewController.m in Sources */,
 				CC2279FF2012085F005949A1 /* HomeTableViewController.m in Sources */,
-				CC21807E20186FC500418476 /* LeftViewController.m in Sources */,
 				CC6B11391FCC2C8B00F518AB /* LearnPro.xcdatamodeld in Sources */,
-				CC2180C020187C6B00418476 /* LGSideMenuSegue.m in Sources */,
-				CC2180CA20187E2C00418476 /* MainViewController.m in Sources */,
 				CC6B11731FCC3F6B00F518AB /* DemoViewController.m in Sources */,
-				CC2180C120187C6B00418476 /* LGSideMenuView.m in Sources */,
-				CC2180C320187C6B00418476 /* LGSideMenuBorderView.m in Sources */,
-				CC2180C620187C6B00418476 /* LGSideMenuHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -740,6 +681,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		CC26BA9120232E2300901CC9 /* MenuSide.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC26BA9220232E2300901CC9 /* Base */,
+			);
+			name = MenuSide.storyboard;
+			sourceTree = "<group>";
+		};
 		CC6B11341FCC2C8B00F518AB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,11 +14,26 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    MainViewController *mvc = [[MainViewController alloc]init];
-    [mvc setupWithType];
+    
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIStoryboard *menuSideStoryboard = [UIStoryboard storyboardWithName:@"MenuSide" bundle:nil];
+    
+    UIViewController *leftView = [menuSideStoryboard instantiateViewControllerWithIdentifier:@"LeftViewController"];
+    UIViewController *centerView = [mainStoryboard instantiateViewControllerWithIdentifier:@"CenterViewController"];
+    UIViewController *rightView = [menuSideStoryboard instantiateViewControllerWithIdentifier:@"RightViewController"];
+    
+    UINavigationController *leftNav = [[UINavigationController alloc]initWithRootViewController:leftView];
+    UINavigationController *centerNav = [[UINavigationController alloc]initWithRootViewController:centerView];
+    UINavigationController *rightNav = [[UINavigationController alloc]initWithRootViewController:rightView];
+
+    
+    self.drawerController = [[MMDrawerController alloc]initWithCenterViewController:centerNav leftDrawerViewController:leftNav rightDrawerViewController:rightNav];
+    
+    self.window.rootViewController = self.drawerController;
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
