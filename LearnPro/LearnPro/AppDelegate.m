@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MMDrawerController.h"
 
 @interface AppDelegate ()
 
@@ -14,27 +15,32 @@
 
 @implementation AppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    UIStoryboard *menuSideStoryboard = [UIStoryboard storyboardWithName:@"MenuSide" bundle:nil];
-    
-    UIViewController *leftView = [menuSideStoryboard instantiateViewControllerWithIdentifier:@"LeftViewController"];
-    UIViewController *centerView = [mainStoryboard instantiateViewControllerWithIdentifier:@"CenterViewController"];
-    UIViewController *rightView = [menuSideStoryboard instantiateViewControllerWithIdentifier:@"RightViewController"];
-    
-    UINavigationController *leftNav = [[UINavigationController alloc]initWithRootViewController:leftView];
-    UINavigationController *centerNav = [[UINavigationController alloc]initWithRootViewController:centerView];
-    UINavigationController *rightNav = [[UINavigationController alloc]initWithRootViewController:rightView];
 
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [self firstPage];
+    return YES;
+}
+
+-(void)firstPage {
+    UIStoryboard *main = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIStoryboard *menuSide = [UIStoryboard storyboardWithName:@"MenuSide" bundle:nil];
     
-    self.drawerController = [[MMDrawerController alloc]initWithCenterViewController:centerNav leftDrawerViewController:leftNav rightDrawerViewController:rightNav];
+    UIViewController *rvc = [menuSide instantiateViewControllerWithIdentifier:@"RightViewController"];
+    UITabBarController *cvc = [main instantiateViewControllerWithIdentifier:@"CenterViewController"];
+    //        UIViewController *lvc = [menuSide instantiateViewControllerWithIdentifier:@"LeftViewController"];
+    
+    UINavigationController *nrvc = [[UINavigationController alloc]initWithRootViewController:rvc];
+    UINavigationController *ncvc = [[UINavigationController alloc]initWithRootViewController:cvc];
+    //        UINavigationController *nlvc = [[UINavigationController alloc]initWithRootViewController:lvc];
+    
+    self.drawerController = [[MMDrawerController alloc]initWithCenterViewController:ncvc leftDrawerViewController:nil rightDrawerViewController:nrvc];
+    
+    self.drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModePanningCenterView;
+    self.drawerController.closeDrawerGestureModeMask = MMCloseDrawerGestureModePanningCenterView;
     
     self.window.rootViewController = self.drawerController;
-    [self.window makeKeyAndVisible];
-    
-    
-    return YES;
+
 }
 
 
@@ -65,7 +71,6 @@
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
 }
-
 
 #pragma mark - Core Data stack
 

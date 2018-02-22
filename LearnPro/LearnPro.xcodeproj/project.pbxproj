@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0F9C07203C87480070600D /* MenuData.json in Resources */ = {isa = PBXBuildFile; fileRef = CC0F9C06203C87470070600D /* MenuData.json */; };
+		CC0F9C17203F53100070600D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0F9C0B203F53100070600D /* AFHTTPSessionManager.m */; };
+		CC0F9C18203F53100070600D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0F9C0E203F53100070600D /* AFNetworkReachabilityManager.m */; };
+		CC0F9C19203F53100070600D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0F9C10203F53100070600D /* AFSecurityPolicy.m */; };
+		CC0F9C1A203F53100070600D /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0F9C12203F53100070600D /* AFURLRequestSerialization.m */; };
+		CC0F9C1B203F53100070600D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0F9C14203F53100070600D /* AFURLResponseSerialization.m */; };
+		CC0F9C1C203F53100070600D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0F9C16203F53100070600D /* AFURLSessionManager.m */; };
 		CC12E42F1FCD347200DFCC0E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC12E42E1FCD346C00DFCC0E /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		CC22795A200A97E4005949A1 /* MSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC227959200A97E3005949A1 /* MSNavigationController.m */; };
 		CC22795D200A981C005949A1 /* UIViewController+MSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = CC22795C200A981C005949A1 /* UIViewController+MSExtensions.m */; };
@@ -24,13 +31,37 @@
 		CC227A1020120CEF005949A1 /* SubectsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC227A0E20120CEF005949A1 /* SubectsCollectionViewCell.xib */; };
 		CC227A1320177655005949A1 /* BFdata.json in Resources */ = {isa = PBXBuildFile; fileRef = CC227A1220177655005949A1 /* BFdata.json */; };
 		CC227A152017765A005949A1 /* WLPdata.json in Resources */ = {isa = PBXBuildFile; fileRef = CC227A142017765A005949A1 /* WLPdata.json */; };
-		CC26BA6E2023235E00901CC9 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BA662023235D00901CC9 /* UIViewController+MMDrawerController.m */; };
-		CC26BA6F2023235E00901CC9 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BA692023235E00901CC9 /* MMDrawerBarButtonItem.m */; };
-		CC26BA702023235E00901CC9 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BA6B2023235E00901CC9 /* MMDrawerController.m */; };
-		CC26BA712023235E00901CC9 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BA6D2023235E00901CC9 /* MMDrawerVisualState.m */; };
 		CC26BA8D20232D7400901CC9 /* LeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BA8C20232D7400901CC9 /* LeftView.m */; };
 		CC26BA9020232D9200901CC9 /* RightView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BA8F20232D9200901CC9 /* RightView.m */; };
 		CC26BA9320232E2400901CC9 /* MenuSide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC26BA9120232E2300901CC9 /* MenuSide.storyboard */; };
+		CC26BA96202478D700901CC9 /* Lessons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC26BA94202478D600901CC9 /* Lessons.storyboard */; };
+		CC26BAA420247BB400901CC9 /* LessonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BAA320247BB400901CC9 /* LessonsViewController.m */; };
+		CC26BAA92024892E00901CC9 /* ClassCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BAA72024892E00901CC9 /* ClassCollectionViewCell.m */; };
+		CC26BAAA2024892E00901CC9 /* ClassCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26BAA82024892E00901CC9 /* ClassCollectionViewCell.xib */; };
+		CC26BAB120248ECD00901CC9 /* ClassesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BAB020248ECD00901CC9 /* ClassesViewController.m */; };
+		CC26BAB52024D3E800901CC9 /* SubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BAB42024D3E800901CC9 /* SubjectViewController.m */; };
+		CC26BABC20259B7400901CC9 /* SubjectSecondPageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC26BABA20259B7400901CC9 /* SubjectSecondPageCollectionViewCell.m */; };
+		CC26BABD20259B7400901CC9 /* SubjectSecondPageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC26BABB20259B7400901CC9 /* SubjectSecondPageCollectionViewCell.xib */; };
+		CC2FC6712028A0260006B727 /* WebServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6692028A0250006B727 /* WebServiceManager.m */; };
+		CC2FC6722028A0260006B727 /* NSDictionary+UrlEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC66A2028A0250006B727 /* NSDictionary+UrlEncoding.m */; };
+		CC2FC6732028A0260006B727 /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC66B2028A0250006B727 /* JSON.m */; };
+		CC2FC6742028A0260006B727 /* NSURLSession+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC66D2028A0250006B727 /* NSURLSession+Addition.m */; };
+		CC2FC67A2028A0990006B727 /* MSGoogleTagManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6792028A0990006B727 /* MSGoogleTagManager.m */; };
+		CC2FC6802028A0A80006B727 /* MSApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC67D2028A0A80006B727 /* MSApiRequest.m */; };
+		CC2FC6812028A0A80006B727 /* MSBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC67E2028A0A80006B727 /* MSBaseRequest.m */; };
+		CC2FC69E2028A0CE0006B727 /* MSAPIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6882028A0CB0006B727 /* MSAPIConstants.m */; };
+		CC2FC6A32028A0CE0006B727 /* MSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6962028A0CD0006B727 /* MSRequest.m */; };
+		CC2FC6A52028A0CE0006B727 /* MSApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6992028A0CE0006B727 /* MSApi.m */; };
+		CC2FC6A92028A0F90006B727 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6A72028A0F90006B727 /* Reachability.m */; };
+		CC2FC6AF2028A2160006B727 /* LPSubjectsApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6AE2028A2160006B727 /* LPSubjectsApi.m */; };
+		CC2FC6B32028A2BB0006B727 /* LPSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6B22028A2BB0006B727 /* LPSubject.m */; };
+		CC2FC6BD2028AED30006B727 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6B42028AED10006B727 /* MMDrawerBarButtonItem.m */; };
+		CC2FC6BE2028AED30006B727 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6B52028AED20006B727 /* MMDrawerController.m */; };
+		CC2FC6BF2028AED30006B727 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6B82028AED20006B727 /* MMDrawerVisualState.m */; };
+		CC2FC6C02028AED30006B727 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6BA2028AED20006B727 /* UIViewController+MMDrawerController.m */; };
+		CC2FC6DB2028B3D40006B727 /* LessonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC6D92028B3D40006B727 /* LessonCollectionViewCell.m */; };
+		CC2FC6DC2028B3D40006B727 /* LessonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC2FC6DA2028B3D40006B727 /* LessonCollectionViewCell.xib */; };
+		CC2FC741202CA9A80006B727 /* LogRegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2FC740202CA9A80006B727 /* LogRegViewController.m */; };
 		CC6B11301FCC2C8B00F518AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6B112F1FCC2C8B00F518AB /* AppDelegate.m */; };
 		CC6B11361FCC2C8B00F518AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6B11341FCC2C8B00F518AB /* Main.storyboard */; };
 		CC6B11391FCC2C8B00F518AB /* LearnPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC6B11371FCC2C8B00F518AB /* LearnPro.xcdatamodeld */; };
@@ -48,6 +79,7 @@
 		CC7BB6F21FD87DC300348625 /* NewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7BB6F01FD87DC300348625 /* NewsCollectionViewCell.xib */; };
 		CC7CB4CD1FF052A600A21748 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7CB4CC1FF052A600A21748 /* LogInViewController.m */; };
 		CC7CB4D21FF052CF00A21748 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7CB4D11FF052CF00A21748 /* RegisterViewController.m */; };
+		CCF4CBB22034CAC400E98D11 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF4CBB12034CAC400E98D11 /* InfoViewController.m */; };
 		CCFF4AB6200545BB008832EA /* NSString+EmailValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFF4AB4200545BA008832EA /* NSString+EmailValidation.m */; };
 		CCFF4ABD2009EF9F008832EA /* SubviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFF4ABB2009EF9F008832EA /* SubviewViewController.m */; };
 		CCFF4ABE2009EF9F008832EA /* SubviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCFF4ABC2009EF9F008832EA /* SubviewViewController.xib */; };
@@ -71,6 +103,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC0F9C06203C87470070600D /* MenuData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MenuData.json; sourceTree = "<group>"; };
+		CC0F9C0A203F53100070600D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CC0F9C0B203F53100070600D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CC0F9C0C203F53100070600D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CC0F9C0D203F53100070600D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CC0F9C0E203F53100070600D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CC0F9C0F203F53100070600D /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CC0F9C10203F53100070600D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CC0F9C11203F53100070600D /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CC0F9C12203F53100070600D /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CC0F9C13203F53100070600D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CC0F9C14203F53100070600D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CC0F9C15203F53100070600D /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CC0F9C16203F53100070600D /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		CC12E42E1FCD346C00DFCC0E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		CC12E4301FCD348100DFCC0E /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
 		CC227958200A97E3005949A1 /* MSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSNavigationController.h; path = LearnPro/MSNavigationController.h; sourceTree = SOURCE_ROOT; };
@@ -99,20 +145,66 @@
 		CC227A0E20120CEF005949A1 /* SubectsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubectsCollectionViewCell.xib; sourceTree = "<group>"; };
 		CC227A1220177655005949A1 /* BFdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = BFdata.json; path = LearnPro/BFdata.json; sourceTree = SOURCE_ROOT; };
 		CC227A142017765A005949A1 /* WLPdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = WLPdata.json; path = LearnPro/WLPdata.json; sourceTree = SOURCE_ROOT; };
-		CC26BA652023235D00901CC9 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerController.h"; sourceTree = "<group>"; };
-		CC26BA662023235D00901CC9 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MMDrawerController.m"; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
-		CC26BA672023235D00901CC9 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MMDrawerController.h"; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
-		CC26BA682023235D00901CC9 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerBarButtonItem.h"; sourceTree = "<group>"; };
-		CC26BA692023235E00901CC9 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerBarButtonItem.m"; sourceTree = "<group>"; };
-		CC26BA6A2023235E00901CC9 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MMDrawerController+Subclass.h"; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
-		CC26BA6B2023235E00901CC9 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerController.m; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerController.m"; sourceTree = "<group>"; };
-		CC26BA6C2023235E00901CC9 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMDrawerVisualState.h; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerVisualState.h"; sourceTree = "<group>"; };
-		CC26BA6D2023235E00901CC9 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMDrawerVisualState.m; path = "../../../../../../../Downloads/MMDrawerController-master/MMDrawerController/MMDrawerVisualState.m"; sourceTree = "<group>"; };
 		CC26BA8B20232D7400901CC9 /* LeftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftView.h; sourceTree = "<group>"; };
 		CC26BA8C20232D7400901CC9 /* LeftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftView.m; sourceTree = "<group>"; };
 		CC26BA8E20232D9200901CC9 /* RightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightView.h; sourceTree = "<group>"; };
 		CC26BA8F20232D9200901CC9 /* RightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightView.m; sourceTree = "<group>"; };
 		CC26BA9220232E2300901CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MenuSide.storyboard; sourceTree = "<group>"; };
+		CC26BA95202478D600901CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Lessons.storyboard; sourceTree = "<group>"; };
+		CC26BAA220247BB400901CC9 /* LessonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LessonsViewController.h; sourceTree = "<group>"; };
+		CC26BAA320247BB400901CC9 /* LessonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonsViewController.m; sourceTree = "<group>"; };
+		CC26BAA62024892E00901CC9 /* ClassCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassCollectionViewCell.h; sourceTree = "<group>"; };
+		CC26BAA72024892E00901CC9 /* ClassCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassCollectionViewCell.m; sourceTree = "<group>"; };
+		CC26BAA82024892E00901CC9 /* ClassCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassCollectionViewCell.xib; sourceTree = "<group>"; };
+		CC26BAAF20248ECD00901CC9 /* ClassesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassesViewController.h; sourceTree = "<group>"; };
+		CC26BAB020248ECD00901CC9 /* ClassesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassesViewController.m; sourceTree = "<group>"; };
+		CC26BAB32024D3E800901CC9 /* SubjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectViewController.h; sourceTree = "<group>"; };
+		CC26BAB42024D3E800901CC9 /* SubjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectViewController.m; sourceTree = "<group>"; };
+		CC26BAB920259B7400901CC9 /* SubjectSecondPageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubjectSecondPageCollectionViewCell.h; sourceTree = "<group>"; };
+		CC26BABA20259B7400901CC9 /* SubjectSecondPageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubjectSecondPageCollectionViewCell.m; sourceTree = "<group>"; };
+		CC26BABB20259B7400901CC9 /* SubjectSecondPageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubjectSecondPageCollectionViewCell.xib; sourceTree = "<group>"; };
+		CC2FC6692028A0250006B727 /* WebServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceManager.m; sourceTree = "<group>"; };
+		CC2FC66A2028A0250006B727 /* NSDictionary+UrlEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+UrlEncoding.m"; sourceTree = "<group>"; };
+		CC2FC66B2028A0250006B727 /* JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSON.m; sourceTree = "<group>"; };
+		CC2FC66C2028A0250006B727 /* NSDictionary+UrlEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+UrlEncoding.h"; sourceTree = "<group>"; };
+		CC2FC66D2028A0250006B727 /* NSURLSession+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+Addition.m"; sourceTree = "<group>"; };
+		CC2FC66E2028A0250006B727 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		CC2FC66F2028A0250006B727 /* NSURLSession+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+Addition.h"; sourceTree = "<group>"; };
+		CC2FC6702028A0250006B727 /* WebServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceManager.h; sourceTree = "<group>"; };
+		CC2FC6782028A0990006B727 /* MSGoogleTagManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGoogleTagManager.h; sourceTree = "<group>"; };
+		CC2FC6792028A0990006B727 /* MSGoogleTagManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSGoogleTagManager.m; sourceTree = "<group>"; };
+		CC2FC67B2028A0A80006B727 /* MSRequestToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRequestToken.h; sourceTree = "<group>"; };
+		CC2FC67C2028A0A80006B727 /* MSApiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSApiRequest.h; sourceTree = "<group>"; };
+		CC2FC67D2028A0A80006B727 /* MSApiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSApiRequest.m; sourceTree = "<group>"; };
+		CC2FC67E2028A0A80006B727 /* MSBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBaseRequest.m; sourceTree = "<group>"; };
+		CC2FC67F2028A0A80006B727 /* MSBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBaseRequest.h; sourceTree = "<group>"; };
+		CC2FC6822028A0CA0006B727 /* MSApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSApi.h; sourceTree = "<group>"; };
+		CC2FC6882028A0CB0006B727 /* MSAPIConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAPIConstants.m; sourceTree = "<group>"; };
+		CC2FC68F2028A0CC0006B727 /* MSAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAPIConstants.h; sourceTree = "<group>"; };
+		CC2FC6952028A0CD0006B727 /* MSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRequest.h; sourceTree = "<group>"; };
+		CC2FC6962028A0CD0006B727 /* MSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRequest.m; sourceTree = "<group>"; };
+		CC2FC6992028A0CE0006B727 /* MSApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSApi.m; sourceTree = "<group>"; };
+		CC2FC6A72028A0F90006B727 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CC2FC6A82028A0F90006B727 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CC2FC6AD2028A2160006B727 /* LPSubjectsApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPSubjectsApi.h; sourceTree = "<group>"; };
+		CC2FC6AE2028A2160006B727 /* LPSubjectsApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPSubjectsApi.m; sourceTree = "<group>"; };
+		CC2FC6B12028A2BB0006B727 /* LPSubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPSubject.h; sourceTree = "<group>"; };
+		CC2FC6B22028A2BB0006B727 /* LPSubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPSubject.m; sourceTree = "<group>"; };
+		CC2FC6B42028AED10006B727 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		CC2FC6B52028AED20006B727 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		CC2FC6B62028AED20006B727 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		CC2FC6B72028AED20006B727 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		CC2FC6B82028AED20006B727 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		CC2FC6B92028AED20006B727 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		CC2FC6BA2028AED20006B727 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		CC2FC6BB2028AED20006B727 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		CC2FC6BC2028AED20006B727 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		CC2FC6C12028B2580006B727 /* AFNetworking.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = AFNetworking.xcworkspace; path = "../../../Downloads/AFNetworking-master/AFNetworking.xcworkspace"; sourceTree = "<group>"; };
+		CC2FC6D82028B3D40006B727 /* LessonCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonCollectionViewCell.h; sourceTree = "<group>"; };
+		CC2FC6D92028B3D40006B727 /* LessonCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonCollectionViewCell.m; sourceTree = "<group>"; };
+		CC2FC6DA2028B3D40006B727 /* LessonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LessonCollectionViewCell.xib; sourceTree = "<group>"; };
+		CC2FC73F202CA9A80006B727 /* LogRegViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogRegViewController.h; sourceTree = "<group>"; };
+		CC2FC740202CA9A80006B727 /* LogRegViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogRegViewController.m; sourceTree = "<group>"; };
 		CC6B112B1FCC2C8B00F518AB /* LearnPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6B112E1FCC2C8B00F518AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC6B112F1FCC2C8B00F518AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -145,6 +237,8 @@
 		CC7CB4CC1FF052A600A21748 /* LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		CC7CB4D01FF052CF00A21748 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		CC7CB4D11FF052CF00A21748 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		CCF4CBB02034CAC400E98D11 /* InfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		CCF4CBB12034CAC400E98D11 /* InfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		CCFF4AB4200545BA008832EA /* NSString+EmailValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+EmailValidation.m"; path = "LearnPro/NSString+EmailValidation.m"; sourceTree = SOURCE_ROOT; };
 		CCFF4AB5200545BA008832EA /* NSString+EmailValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+EmailValidation.h"; path = "LearnPro/NSString+EmailValidation.h"; sourceTree = SOURCE_ROOT; };
 		CCFF4ABA2009EF9F008832EA /* SubviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubviewViewController.h; sourceTree = "<group>"; };
@@ -178,9 +272,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC0F9C09203F53100070600D /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CC0F9C0A203F53100070600D /* AFHTTPSessionManager.h */,
+				CC0F9C0B203F53100070600D /* AFHTTPSessionManager.m */,
+				CC0F9C0C203F53100070600D /* AFNetworking.h */,
+				CC0F9C0D203F53100070600D /* AFNetworkReachabilityManager.h */,
+				CC0F9C0E203F53100070600D /* AFNetworkReachabilityManager.m */,
+				CC0F9C0F203F53100070600D /* AFSecurityPolicy.h */,
+				CC0F9C10203F53100070600D /* AFSecurityPolicy.m */,
+				CC0F9C11203F53100070600D /* AFURLRequestSerialization.h */,
+				CC0F9C12203F53100070600D /* AFURLRequestSerialization.m */,
+				CC0F9C13203F53100070600D /* AFURLResponseSerialization.h */,
+				CC0F9C14203F53100070600D /* AFURLResponseSerialization.m */,
+				CC0F9C15203F53100070600D /* AFURLSessionManager.h */,
+				CC0F9C16203F53100070600D /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			path = ../../../../Downloads/AFNetworking;
+			sourceTree = "<group>";
+		};
 		CC12E42D1FCD346C00DFCC0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CC2FC6C12028B2580006B727 /* AFNetworking.xcworkspace */,
 				CC12E4301FCD348100DFCC0E /* CallKit.framework */,
 				CC12E42E1FCD346C00DFCC0E /* MapKit.framework */,
 			);
@@ -239,6 +355,9 @@
 		CC2279FC2012083B005949A1 /* HomeTableViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CC26BAB22024D3AF00901CC9 /* Subject */,
+				CC26BAA5202488F700901CC9 /* Classes */,
+				CC26BAA120247B5A00901CC9 /* Lessons */,
 				CC227A1220177655005949A1 /* BFdata.json */,
 				CC227A142017765A005949A1 /* WLPdata.json */,
 				CC227A05201208F3005949A1 /* WhyLearnProCollectionViewCell */,
@@ -292,8 +411,11 @@
 		CC26BA63202322F800901CC9 /* RightViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CC0F9C06203C87470070600D /* MenuData.json */,
 				CC26BA8E20232D9200901CC9 /* RightView.h */,
 				CC26BA8F20232D9200901CC9 /* RightView.m */,
+				CCF4CBB02034CAC400E98D11 /* InfoViewController.h */,
+				CCF4CBB12034CAC400E98D11 /* InfoViewController.m */,
 			);
 			path = RightViewController;
 			sourceTree = "<group>";
@@ -301,18 +423,161 @@
 		CC26BA642023235500901CC9 /* MMDrawer */ = {
 			isa = PBXGroup;
 			children = (
-				CC26BA682023235D00901CC9 /* MMDrawerBarButtonItem.h */,
-				CC26BA692023235E00901CC9 /* MMDrawerBarButtonItem.m */,
-				CC26BA652023235D00901CC9 /* MMDrawerController.h */,
-				CC26BA6B2023235E00901CC9 /* MMDrawerController.m */,
-				CC26BA6A2023235E00901CC9 /* MMDrawerController+Subclass.h */,
-				CC26BA6C2023235E00901CC9 /* MMDrawerVisualState.h */,
-				CC26BA6D2023235E00901CC9 /* MMDrawerVisualState.m */,
-				CC26BA672023235D00901CC9 /* UIViewController+MMDrawerController.h */,
-				CC26BA662023235D00901CC9 /* UIViewController+MMDrawerController.m */,
+				CC2FC6B92028AED20006B727 /* MMDrawerBarButtonItem.h */,
+				CC2FC6B42028AED10006B727 /* MMDrawerBarButtonItem.m */,
+				CC2FC6BC2028AED20006B727 /* MMDrawerController.h */,
+				CC2FC6B52028AED20006B727 /* MMDrawerController.m */,
+				CC2FC6B62028AED20006B727 /* MMDrawerController+Subclass.h */,
+				CC2FC6B72028AED20006B727 /* MMDrawerVisualState.h */,
+				CC2FC6B82028AED20006B727 /* MMDrawerVisualState.m */,
+				CC2FC6BB2028AED20006B727 /* UIViewController+MMDrawerController.h */,
+				CC2FC6BA2028AED20006B727 /* UIViewController+MMDrawerController.m */,
 			);
 			path = MMDrawer;
 			sourceTree = "<group>";
+		};
+		CC26BAA120247B5A00901CC9 /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FC6D72028B3D40006B727 /* LessonCollectionViewCell */,
+				CC26BAA220247BB400901CC9 /* LessonsViewController.h */,
+				CC26BAA320247BB400901CC9 /* LessonsViewController.m */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		CC26BAA5202488F700901CC9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC26BAAB2024893400901CC9 /* ClassCollectionViewCell */,
+				CC26BAAF20248ECD00901CC9 /* ClassesViewController.h */,
+				CC26BAB020248ECD00901CC9 /* ClassesViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CC26BAAB2024893400901CC9 /* ClassCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC26BAA62024892E00901CC9 /* ClassCollectionViewCell.h */,
+				CC26BAA72024892E00901CC9 /* ClassCollectionViewCell.m */,
+				CC26BAA82024892E00901CC9 /* ClassCollectionViewCell.xib */,
+			);
+			path = ClassCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		CC26BAB22024D3AF00901CC9 /* Subject */ = {
+			isa = PBXGroup;
+			children = (
+				CC26BABE20259B7B00901CC9 /* SubjectSecondPageCollectionViewCell */,
+				CC26BAB32024D3E800901CC9 /* SubjectViewController.h */,
+				CC26BAB42024D3E800901CC9 /* SubjectViewController.m */,
+			);
+			path = Subject;
+			sourceTree = "<group>";
+		};
+		CC26BABE20259B7B00901CC9 /* SubjectSecondPageCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC26BAB920259B7400901CC9 /* SubjectSecondPageCollectionViewCell.h */,
+				CC26BABA20259B7400901CC9 /* SubjectSecondPageCollectionViewCell.m */,
+				CC26BABB20259B7400901CC9 /* SubjectSecondPageCollectionViewCell.xib */,
+			);
+			path = SubjectSecondPageCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		CC2FC66720289FC30006B727 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FC6B02028A2990006B727 /* LPSubjects */,
+				CC2FC6A62028A0E40006B727 /* Reachability */,
+				CC2FC6772028A0820006B727 /* GoogleTagManager */,
+				CC2FC66820289FF70006B727 /* PostServiceManagers */,
+				CC2FC6752028A0310006B727 /* API */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC2FC66820289FF70006B727 /* PostServiceManagers */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FC66E2028A0250006B727 /* JSON.h */,
+				CC2FC66B2028A0250006B727 /* JSON.m */,
+				CC2FC66C2028A0250006B727 /* NSDictionary+UrlEncoding.h */,
+				CC2FC66A2028A0250006B727 /* NSDictionary+UrlEncoding.m */,
+				CC2FC66F2028A0250006B727 /* NSURLSession+Addition.h */,
+				CC2FC66D2028A0250006B727 /* NSURLSession+Addition.m */,
+				CC2FC6702028A0250006B727 /* WebServiceManager.h */,
+				CC2FC6692028A0250006B727 /* WebServiceManager.m */,
+			);
+			path = PostServiceManagers;
+			sourceTree = "<group>";
+		};
+		CC2FC6752028A0310006B727 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FC6822028A0CA0006B727 /* MSApi.h */,
+				CC2FC6992028A0CE0006B727 /* MSApi.m */,
+				CC2FC68F2028A0CC0006B727 /* MSAPIConstants.h */,
+				CC2FC6882028A0CB0006B727 /* MSAPIConstants.m */,
+				CC2FC6AD2028A2160006B727 /* LPSubjectsApi.h */,
+				CC2FC6AE2028A2160006B727 /* LPSubjectsApi.m */,
+				CC2FC6952028A0CD0006B727 /* MSRequest.h */,
+				CC2FC6962028A0CD0006B727 /* MSRequest.m */,
+				CC2FC6762028A0440006B727 /* API Connector */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		CC2FC6762028A0440006B727 /* API Connector */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FC67C2028A0A80006B727 /* MSApiRequest.h */,
+				CC2FC67D2028A0A80006B727 /* MSApiRequest.m */,
+				CC2FC67F2028A0A80006B727 /* MSBaseRequest.h */,
+				CC2FC67E2028A0A80006B727 /* MSBaseRequest.m */,
+				CC2FC67B2028A0A80006B727 /* MSRequestToken.h */,
+			);
+			path = "API Connector";
+			sourceTree = "<group>";
+		};
+		CC2FC6772028A0820006B727 /* GoogleTagManager */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FC6782028A0990006B727 /* MSGoogleTagManager.h */,
+				CC2FC6792028A0990006B727 /* MSGoogleTagManager.m */,
+			);
+			path = GoogleTagManager;
+			sourceTree = "<group>";
+		};
+		CC2FC6A62028A0E40006B727 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FC6A82028A0F90006B727 /* Reachability.h */,
+				CC2FC6A72028A0F90006B727 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		CC2FC6B02028A2990006B727 /* LPSubjects */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FC6B12028A2BB0006B727 /* LPSubject.h */,
+				CC2FC6B22028A2BB0006B727 /* LPSubject.m */,
+			);
+			path = LPSubjects;
+			sourceTree = "<group>";
+		};
+		CC2FC6D72028B3D40006B727 /* LessonCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FC6D82028B3D40006B727 /* LessonCollectionViewCell.h */,
+				CC2FC6D92028B3D40006B727 /* LessonCollectionViewCell.m */,
+				CC2FC6DA2028B3D40006B727 /* LessonCollectionViewCell.xib */,
+			);
+			name = LessonCollectionViewCell;
+			path = LearnPro/UI/TabBar/HomeTableViewController/LessonCollectionViewCell;
+			sourceTree = SOURCE_ROOT;
 		};
 		CC6B11221FCC2C8B00F518AB = {
 			isa = PBXGroup;
@@ -338,11 +603,15 @@
 		CC6B112D1FCC2C8B00F518AB /* LearnPro */ = {
 			isa = PBXGroup;
 			children = (
+				CC0F9C09203F53100070600D /* AFNetworking */,
 				CC6B11771FCC3F8C00F518AB /* LearnProCore */,
+				CC2FC66720289FC30006B727 /* Models */,
+				CC6B11781FCC3F9600F518AB /* UI */,
 				CC6B112E1FCC2C8B00F518AB /* AppDelegate.h */,
 				CC6B112F1FCC2C8B00F518AB /* AppDelegate.m */,
 				CC6B11341FCC2C8B00F518AB /* Main.storyboard */,
 				CC26BA9120232E2300901CC9 /* MenuSide.storyboard */,
+				CC26BA94202478D600901CC9 /* Lessons.storyboard */,
 				CC6B113A1FCC2C8B00F518AB /* Assets.xcassets */,
 				CC6B113C1FCC2C8B00F518AB /* LaunchScreen.storyboard */,
 				CC6B113F1FCC2C8B00F518AB /* Info.plist */,
@@ -396,7 +665,6 @@
 				CC22795C200A981C005949A1 /* UIViewController+MSExtensions.m */,
 				CC22795E200A9859005949A1 /* UIColor+MSAdditions.h */,
 				CC22795F200A9859005949A1 /* UIColor+MSAdditions.m */,
-				CC6B11781FCC3F9600F518AB /* UI */,
 			);
 			path = LearnProCore;
 			sourceTree = "<group>";
@@ -410,6 +678,8 @@
 				CC7CB4CF1FF052BD00A21748 /* RegisterViewController */,
 				CC7CB4CE1FF052AE00A21748 /* LogInViewController */,
 				CC6B11671FCC3F0C00F518AB /* TabBar */,
+				CC2FC73F202CA9A80006B727 /* LogRegViewController.h */,
+				CC2FC740202CA9A80006B727 /* LogRegViewController.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -584,14 +854,19 @@
 				CC6B113E1FCC2C8B00F518AB /* LaunchScreen.storyboard in Resources */,
 				CC6B113B1FCC2C8B00F518AB /* Assets.xcassets in Resources */,
 				CCFF4ABE2009EF9F008832EA /* SubviewViewController.xib in Resources */,
+				CC26BA96202478D700901CC9 /* Lessons.storyboard in Resources */,
 				CC26BA9320232E2400901CC9 /* MenuSide.storyboard in Resources */,
+				CC26BAAA2024892E00901CC9 /* ClassCollectionViewCell.xib in Resources */,
 				CC6B11361FCC2C8B00F518AB /* Main.storyboard in Resources */,
+				CC26BABD20259B7400901CC9 /* SubjectSecondPageCollectionViewCell.xib in Resources */,
+				CC2FC6DC2028B3D40006B727 /* LessonCollectionViewCell.xib in Resources */,
 				CC227A04201208EE005949A1 /* WhyLearnProCollectionViewCell.xib in Resources */,
 				CC227A152017765A005949A1 /* WLPdata.json in Resources */,
 				CC227A0A20120CCC005949A1 /* BeFreeCollectionViewCell.xib in Resources */,
 				CC7BB6F21FD87DC300348625 /* NewsCollectionViewCell.xib in Resources */,
 				CC227A1020120CEF005949A1 /* SubectsCollectionViewCell.xib in Resources */,
 				CC22796B200FA425005949A1 /* DemoCollectionViewCell.xib in Resources */,
+				CC0F9C07203C87480070600D /* MenuData.json in Resources */,
 				CC227A1320177655005949A1 /* BFdata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,33 +892,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC26BA712023235E00901CC9 /* MMDrawerVisualState.m in Sources */,
+				CC2FC6BF2028AED30006B727 /* MMDrawerVisualState.m in Sources */,
 				CC6EF43F1FD5426C00C81EED /* TabBarViewController.m in Sources */,
 				CC7CB4CD1FF052A600A21748 /* LogInViewController.m in Sources */,
+				CC2FC6AF2028A2160006B727 /* LPSubjectsApi.m in Sources */,
+				CC0F9C1B203F53100070600D /* AFURLResponseSerialization.m in Sources */,
+				CC2FC6A32028A0CE0006B727 /* MSRequest.m in Sources */,
 				CC22796A200FA425005949A1 /* DemoCollectionViewCell.m in Sources */,
 				CC227A0F20120CEF005949A1 /* SubectsCollectionViewCell.m in Sources */,
+				CC2FC69E2028A0CE0006B727 /* MSAPIConstants.m in Sources */,
+				CC2FC741202CA9A80006B727 /* LogRegViewController.m in Sources */,
 				CC227A0920120CCC005949A1 /* BeFreeCollectionViewCell.m in Sources */,
+				CC2FC6A52028A0CE0006B727 /* MSApi.m in Sources */,
 				CC22795A200A97E4005949A1 /* MSNavigationController.m in Sources */,
+				CC2FC6A92028A0F90006B727 /* Reachability.m in Sources */,
 				CC7BB6F11FD87DC300348625 /* NewsCollectionViewCell.m in Sources */,
+				CC0F9C18203F53100070600D /* AFNetworkReachabilityManager.m in Sources */,
+				CC26BAA420247BB400901CC9 /* LessonsViewController.m in Sources */,
+				CC0F9C1C203F53100070600D /* AFURLSessionManager.m in Sources */,
+				CC0F9C17203F53100070600D /* AFHTTPSessionManager.m in Sources */,
 				CC6B116D1FCC3F3F00F518AB /* AboutUsViewController.m in Sources */,
 				CC26BA9020232D9200901CC9 /* RightView.m in Sources */,
+				CC2FC6812028A0A80006B727 /* MSBaseRequest.m in Sources */,
 				CC22795D200A981C005949A1 /* UIViewController+MSExtensions.m in Sources */,
-				CC26BA702023235E00901CC9 /* MMDrawerController.m in Sources */,
+				CC2FC6BE2028AED30006B727 /* MMDrawerController.m in Sources */,
 				CC227960200A985A005949A1 /* UIColor+MSAdditions.m in Sources */,
+				CCF4CBB22034CAC400E98D11 /* InfoViewController.m in Sources */,
 				CCFF4AB6200545BB008832EA /* NSString+EmailValidation.m in Sources */,
+				CC0F9C19203F53100070600D /* AFSecurityPolicy.m in Sources */,
 				CC6B11301FCC2C8B00F518AB /* AppDelegate.m in Sources */,
-				CC26BA6F2023235E00901CC9 /* MMDrawerBarButtonItem.m in Sources */,
+				CC0F9C1A203F53100070600D /* AFURLRequestSerialization.m in Sources */,
+				CC26BAA92024892E00901CC9 /* ClassCollectionViewCell.m in Sources */,
+				CC2FC6BD2028AED30006B727 /* MMDrawerBarButtonItem.m in Sources */,
 				CC22796F200FB243005949A1 /* DemoCellInfoViewController.m in Sources */,
+				CC2FC6B32028A2BB0006B727 /* LPSubject.m in Sources */,
 				CC7CB4D21FF052CF00A21748 /* RegisterViewController.m in Sources */,
-				CC26BA6E2023235E00901CC9 /* UIViewController+MMDrawerController.m in Sources */,
+				CC2FC6732028A0260006B727 /* JSON.m in Sources */,
+				CC2FC6C02028AED30006B727 /* UIViewController+MMDrawerController.m in Sources */,
+				CC26BAB52024D3E800901CC9 /* SubjectViewController.m in Sources */,
+				CC2FC6802028A0A80006B727 /* MSApiRequest.m in Sources */,
+				CC26BABC20259B7400901CC9 /* SubjectSecondPageCollectionViewCell.m in Sources */,
+				CC2FC6712028A0260006B727 /* WebServiceManager.m in Sources */,
 				CC6B11411FCC2C8B00F518AB /* main.m in Sources */,
+				CC2FC6DB2028B3D40006B727 /* LessonCollectionViewCell.m in Sources */,
+				CC2FC67A2028A0990006B727 /* MSGoogleTagManager.m in Sources */,
 				CC26BA8D20232D7400901CC9 /* LeftView.m in Sources */,
 				CC6B11761FCC3F7E00F518AB /* NewsViewController.m in Sources */,
+				CC2FC6742028A0260006B727 /* NSURLSession+Addition.m in Sources */,
+				CC2FC6722028A0260006B727 /* NSDictionary+UrlEncoding.m in Sources */,
 				CC227973200FC76D005949A1 /* NewsCellInfoViewController.m in Sources */,
 				CC6B11701FCC3F5400F518AB /* ContactUsViewController.m in Sources */,
 				CC227A03201208EE005949A1 /* WhyLearnProCollectionViewCell.m in Sources */,
 				CCFF4ABD2009EF9F008832EA /* SubviewViewController.m in Sources */,
 				CC2279FF2012085F005949A1 /* HomeTableViewController.m in Sources */,
+				CC26BAB120248ECD00901CC9 /* ClassesViewController.m in Sources */,
 				CC6B11391FCC2C8B00F518AB /* LearnPro.xcdatamodeld in Sources */,
 				CC6B11731FCC3F6B00F518AB /* DemoViewController.m in Sources */,
 			);
@@ -687,6 +989,14 @@
 				CC26BA9220232E2300901CC9 /* Base */,
 			);
 			name = MenuSide.storyboard;
+			sourceTree = "<group>";
+		};
+		CC26BA94202478D600901CC9 /* Lessons.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC26BA95202478D600901CC9 /* Base */,
+			);
+			name = Lessons.storyboard;
 			sourceTree = "<group>";
 		};
 		CC6B11341FCC2C8B00F518AB /* Main.storyboard */ = {

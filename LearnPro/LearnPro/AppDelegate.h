@@ -21,7 +21,7 @@
 @property(strong, nonatomic)MMDrawerController *drawerController;
 
 - (void)saveContext;
-
+-(void)firstPage;
 
 @end
 
